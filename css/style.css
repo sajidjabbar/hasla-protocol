@@ -1,0 +1,213 @@
+/* font family starts here */
+@font-face {
+	font-family: "hanson";
+	src: url("../fonts/Hanson/Hanson\ Bold\ 700.otf");
+}
+@font-face {
+	font-family: "walkway";
+	src: url("../fonts/walkway/Walkway UltraBold.ttf");
+}
+h1 {
+	font-family: "hanson";
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+h2 {
+	font-family: "hanson";
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+h3 {
+	font-family: "hanson";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+h4 {
+	font-family: "hanson";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+h5 {
+	font-family: "walkway";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+h6 {
+	font-family: "walkway";
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+p {
+	font-family: "Walkway";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+/* font family ends` here */
+/* universal css starts here */
+* {
+	font-family: "walkway";
+	margin: 0px;
+	padding: 0px;
+	transition: all 0.4s ease-in-out;
+}
+.btn {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border-radius: 0px;
+	border: 0px;
+	background-position: center;
+	padding: 8px 31px;
+	color: #fff;
+	width: 193px;
+}
+.btn:hover {
+	background-image: linear-gradient(
+		to left,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	color: #fff;
+}
+.btn i {
+	margin-left: 15px;
+}
+body {
+	background: #00252c;
+}
+/* universal css ends here */
+/* header starts here */
+header#header {
+	padding: 18px 0px 10px 0px;
+	/* background: #00252c; */
+}
+header#header .menu-wrapper ul {
+	display: flex;
+	justify-content: center;
+}
+header#header .menu-wrapper ul a.nav-link {
+	font-size: 20px;
+	margin: 0px 20px;
+	color: #fff;
+}
+header#header .header-cta-wrapper {
+	text-align: end;
+}
+/* header ends here */
+/* banner starts here */
+.banner {
+	background-image: url("../img/banner-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.banner .banner-heading-wrapper h6 {
+	color: #ffffff;
+	font-family: "hanson";
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.banner .banner-heading-wrapper h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.banner .banner-heading-wrapper p {
+	color: #fff;
+	margin-bottom: 32px;
+}
+/* banner ends here */
+/* stats starts here */
+.stats-sec {
+	background-image: url("../img/stats-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	padding: 10px 0px;
+}
+.stats-sec .stats-list-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.stats-sec .stats-list-wrapper .stats-wrapper {
+	flex: 0 0 33%;
+	margin-top: 34px;
+}
+.stats-sec .stats-list-wrapper {
+	/* background-image: url("../img/stats-list-bg.png"); */
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 55px;
+}
+.stats-sec .stats-list-wrapper .stats-wrapper h4 {
+	color: #ffffff;
+	font-size: 34px;
+}
+.stats-sec .stats-list-wrapper .stats-wrapper p {
+	color: #bac4c8;
+	font-size: 16px;
+}
+.stats-sec .content-wrapper {
+	width: 75%;
+	margin: 0px auto;
+}
+.stats-sec .content-wrapper p {
+	color: #fff;
+}
+/* stats ends here */
+/* coins starts here */
+.coins-sec {
+	padding: 60px 0px;
+	background-image: url("../img/coin-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.coins-sec .heading-wrapper {
+	text-align: center;
+}
+.coins-sec .heading-wrapper h3 {
+	font-size: 36px;
+	color: #fff;
+}
+.coins-sec .coin-box-wrapper {
+	background: #011518;
+	height: 350px;
+	border-radius: 30px;
+	width: 73%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
+	-moz-box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
+	box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
+	transform: scale(0.8);
+}
+.coin-row {
+	padding: 50px 0px;
+}
+.coins-sec .coin-box-wrapper figure img {
+	margin: 0px auto;
+}
+/* coins ends here */
