@@ -306,6 +306,18 @@ header#header .header-cta-wrapper {
 .coins-sec .coin-box-wrapper figure img {
   margin: 0px auto;
 }
+/* responsive starts here */
+@media (max-width: 1440px) {
+  .coins-sec .heading-wrapper h3 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 1440px) {
+  .coins-sec .heading-wrapper h3 {
+    font-size: 28px;
+  }
+}
+/* responsive ends here */
 /* coins ends here */
 /* wallet starts here */
 .wallet-sec .single-wallet-wrapper {
@@ -528,6 +540,34 @@ header#header .header-cta-wrapper {
   text-transform: uppercase;
   margin-bottom: 0px;
 }
+/* responsive starts here */
+@media (max-width: 1600px) {
+  .millions-around-wrapper .heading-btn-wrapper h5 {
+    padding: 7px 10px;
+    font-size: 21px;
+  }
+}
+@media (max-width: 1440px) {
+  .Traders-sec
+    .traders-list-wrapper
+    .single-trader-list
+    .single-trader-content-wrapper
+    p {
+    font-size: 14px;
+  }
+  .millions-around-wrapper .heading-btn-wrapper h5 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1366px) {
+  .Traders-sec .btn {
+    width: 170px;
+  }
+  .millions-around-wrapper .heading-btn-wrapper h5 {
+    padding: 9px 10px;
+  }
+}
+/* responsive ends here */
 /* Traders Ends here */
 /* footer starts here */
 footer.footer {
