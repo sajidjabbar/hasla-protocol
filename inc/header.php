@@ -13,8 +13,8 @@
             <div class="col-lg-6">
                 <div class="menu-wrapper">
                     <ul class="navbar-nav flex-row">
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Exchange</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
                     </ul>

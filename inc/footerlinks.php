@@ -7,6 +7,9 @@
 <!-- slick slider cdn starts here -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- slick slider cdn starts here -->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- Swiper JS -->
 <!-- wow js starts here -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
@@ -17,6 +20,10 @@
         // $(window).on('load', function() {
         //     $("#preloader").fadeOut(1000);
         // });
+        var swiper = new Swiper(".vision-slider", {
+            effect: "cards",
+            grabCursor: true,
+        });
         $('.coin-row').slick({
             infinite: true,
             slidesToShow: 3,
