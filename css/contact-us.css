@@ -1,0 +1,125 @@
+header#header {
+  padding: 18px 0px 10px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+/* page header starts here */
+.pageHeader-sec {
+  background-image: url("../img/pageheader-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 145px 0px 50px 0px;
+}
+.pageHeader-sec .page-header-wrapper {
+  text-align: center;
+}
+.pageHeader-sec .page-header-wrapper {
+  text-align: center;
+}
+.pageHeader-sec .page-header-wrapper .heading-wrapper h3 {
+  color: #ffffff;
+  font-family: "hanson";
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li {
+  margin: 0px 10px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "walkway";
+  font-size: 16px;
+  font-weight: 700;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li.base-page a {
+  color: #8c9c9f;
+}
+/* page header ends here */
+/* Contact us starts here */
+.contact-us {
+  background-image: url("../img/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 68px 0px;
+}
+.contact-us .content-wrapper {
+  text-align: center;
+}
+
+.contact-us .content-wrapper h2 {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 43px;
+}
+
+.contact-us .content-wrapper p {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.contact-us .content-wrapper .social-media-icon-wrapper ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us .content-wrapper .social-media-icon-wrapper ul a {
+  margin: 0px 24px;
+  font-size: 27px;
+  color: #28d7f8;
+}
+
+.contact-us .content-wrapper .social-media-icon-wrapper {
+  margin-top: 30px;
+}
+.contact-us .form-wrapper .form-group {
+  margin-bottom: 20px;
+}
+.contact-us .form-wrapper {
+  background: #113137;
+  padding: 38px 29px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+  margin-top: 41px;
+  border: 1px solid #989898;
+}
+.contact-us .form-wrapper input.form-control {
+  background: transparent;
+  border-radius: 0px;
+  height: 59px;
+}
+.contact-us .form-wrapper input.form-control::placeholder {
+  color: #788a8d;
+  font-family: "walkway";
+  font-size: 20px;
+}
+.contact-us .form-wrapper textarea.form-control {
+  background: transparent;
+  border-radius: 0px;
+}
+.contact-us .form-wrapper textarea.form-control::placeholder {
+  color: #788a8d;
+  font-family: "walkway";
+  font-size: 20px;
+}
+.contact-us .form-wrapper label.form-check-label {
+  color: #fff;
+  font-family: "walkway";
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Contact us ends here */
