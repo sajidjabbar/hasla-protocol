@@ -123,3 +123,44 @@ header#header {
   font-weight: 700;
 }
 /* Contact us ends here */
+/* Need help starts here */
+.need-help-sec {
+  background: #01171b;
+  padding: 100px 0px 150px;
+}
+.need-help-sec .container-fluid {
+  padding: 0px 67px;
+}
+.need-help-sec .content-wrapper h3 {
+  font-family: "hanson";
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 33px;
+}
+.need-help-sec .support-card-wrapper {
+  width: 80%;
+}
+.need-help-sec .support-card-wrapper h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Circular-Loom";
+  text-transform: uppercase;
+}
+.need-help-sec .support-card-wrapper p {
+  color: #fff;
+}
+.need-help-sec .support-card-wrapper h4 img {
+  margin-right: 15px;
+}
+.need-help-sec .support-card-wrapper a {
+  color: #25d0f0;
+  text-transform: uppercase;
+  font-family: "hanson";
+  text-decoration: none;
+}
+.need-help-sec .support-card-wrapper a i {
+  margin-left: 28px;
+}
+/* Need Help ends here */

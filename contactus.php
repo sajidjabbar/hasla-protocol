@@ -103,4 +103,46 @@
     </div>
 </section>
 <!-- contact us ends here -->
+<!-- Need Help starts here -->
+<section class="need-help-sec">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="content-wrapper">
+                    <h3>need help? </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="support-card-wrapper">
+                    <h4> <img src="img/msg.png" class="img-fluid" alt=""> Chat Support</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                    </p>
+                    <a href="#">chat now <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="support-card-wrapper">
+                    <h4> <img src="img/help.png" class="img-fluid" alt="">Need Help</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                    </p>
+                    <a href="#">chat now <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="support-card-wrapper">
+                    <h4> <img src="img/contact.png" class="img-fluid" alt=""> Contact </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                    </p>
+                    <a href="#">chat now <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Need Help ends here -->
 <?php include 'inc/footer.php'; ?>
