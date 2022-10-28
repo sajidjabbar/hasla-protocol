@@ -1,0 +1,189 @@
+/* page header starts here */
+header#header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.pageHeader-sec {
+	background-image: url("../img/pageheader-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 145px 0px 50px 0px;
+}
+.pageHeader-sec .page-header-wrapper {
+	text-align: center;
+}
+.pageHeader-sec .page-header-wrapper {
+	text-align: center;
+}
+.pageHeader-sec .page-header-wrapper .heading-wrapper h3 {
+	color: #ffffff;
+	font-family: "hanson";
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul {
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li {
+	margin: 0px 10px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "walkway";
+	font-size: 16px;
+	font-weight: 700;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li.base-page a {
+	color: #8c9c9f;
+}
+/* page header ends here */
+
+/* Exchange Css Start Here */
+.exchange_sec {
+	padding: 40px 0;
+	background: #01171b;
+}
+.exchange_sec .crypto-box {
+	background-image: url("../img/exchange-back.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 30px 23px;
+}
+.exchange_sec .crypto-box .topbar {
+	padding: 10px 50px 10px;
+}
+.exchange_sec .crypto-box .topbar h3 {
+	font-size: 28px;
+	line-height: 38px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.exchange_sec .crypto-box .topbar span.lght {
+	font-size: 20px;
+	margin-left: 10px;
+	font-family: "walkway";
+}
+.exchange_sec .crypto-box .for-tabs {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+.exchange_sec .crypto-box .for-tabs .converion {
+	display: flex;
+}
+.exchange_sec .crypto-box .for-tabs .converion .form-group .form-control {
+	width: 80px;
+	text-align: center;
+	margin-left: 10px;
+	background: #011e24;
+	border: 0;
+	font-size: 14px;
+	border-radius: 50px;
+	color: #fff;
+	font-family: "walkway";
+	box-shadow: none;
+}
+.exchange_sec .crypto-box .for-tabs li.nav-item button {
+	background: #011e24;
+	border-radius: 0;
+	margin-right: 10px;
+	color: #ffffff;
+	transition: 0.6s;
+	width: 130px;
+}
+.exchange_sec .crypto-box .for-tabs li.nav-item button.active {
+	background-image: linear-gradient(
+		to bottom,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+}
+.exchange_sec .crypto-box thead {
+	background: #011e24;
+}
+.exchange_sec .crypto-box thead th {
+	padding: 14px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.exchange_sec
+	.crypto-box
+	label.favourite_container
+	input:checked
+	~ span.checkmark
+	svg
+	path {
+	fill: #d2d22c !important;
+	stroke: #d2d22c;
+}
+.exchange_sec .crypto-box .favourite {
+	width: 4%;
+	text-align: center;
+}
+.exchange_sec .crypto-box h4 {
+	font-size: 14px;
+	color: #fff;
+	font-family: "walkway";
+	margin-bottom: 0;
+}
+.exchange_sec .crypto-box th {
+	border: 0;
+}
+.exchange_sec .crypto-box td {
+	border: 0;
+	vertical-align: middle;
+	padding: 15px 10px;
+}
+.exchange_sec .crypto-box h5.coin-name {
+	font-size: 17px;
+	color: #eff3f9;
+	margin: 0;
+}
+.exchange_sec .crypto-box h6.short-form {
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+}
+.exchange_sec .crypto-box td.name figure {
+	margin: 0;
+}
+.exchange_sec .crypto-box .name {
+	margin-left: 15px;
+}
+.exchange_sec .crypto-box th.name {
+	padding-left: 35px;
+}
+.exchange_sec .crypto-box td.name {
+	display: flex;
+	align-items: center;
+	width: 200px;
+}
+.exchange_sec .crypto-box td.trade button {
+	background: linear-gradient(
+		to bottom,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0;
+	box-shadow: none;
+	padding: 5px 15px;
+	color: #fff;
+}
+.exchange_sec .crypto-box tbody tr {
+	border-bottom: 1px solid #54617a59;
+}
+/* Exchange Css End Here */

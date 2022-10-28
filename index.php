@@ -1,4 +1,5 @@
 <?php include 'inc/app.php'; ?>
+
 <!-- banner starts  here -->
 <section class="banner">
     <img src="img/banner-bef.png" class="img-fluid banner-bef" alt="">
@@ -26,6 +27,7 @@
     <img src="img/banner-af.png" class="img-fluid banner-af" alt="">
 </section>
 <!-- banner ends  here -->
+
 <!-- stats starts here -->
 <section class="stats-sec">
     <div class="container-fluid">
@@ -67,6 +69,7 @@
     </div>
 </section>
 <!-- stats ends here -->
+
 <!-- coins sec starts here -->
 <section class="coins-sec">
     <div class="container">
@@ -134,6 +137,7 @@
     </div>
 </section>
 <!-- coins end here -->
+
 <!-- select wallet sec starts here -->
 <section class="wallet-sec">
     <div class="container-fluid">
@@ -153,7 +157,8 @@
             <div class="col-lg-6">
                 <div class="img-wrapper">
                     <figure>
-                        <img src="img/wallet-img.png" class="img-fluid wow animate__animated animate__fadeInLeft" alt="">
+                        <img src="img/wallet-img.png" class="img-fluid wow animate__animated animate__fadeInLeft"
+                            alt="">
                     </figure>
                 </div>
             </div>
@@ -213,6 +218,7 @@
     </div>
 </section>
 <!-- select wallet sec end here -->
+
 <!-- generate coins starts here -->
 <section class="generate-coins">
     <div class="container">
@@ -225,10 +231,16 @@
                     </div>
                     <div class="text-wrapper wow animate__animated animate__fadeInLeft">
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
                         </p>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
                         </p>
                     </div>
                     <div class="btn-wrapper wow animate__animated animate__fadeInLeft">
@@ -302,6 +314,7 @@
     </div>
 </section>
 <!-- generate coins end here -->
+
 <!-- Trader starts here -->
 <section class="Traders-sec">
     <div class="container-fluid px-0">
@@ -392,4 +405,5 @@
     </div>
 </section>
 <!-- Trader end here -->
+
 <?php include 'inc/footer.php'; ?>

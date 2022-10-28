@@ -15,14 +15,15 @@
                     <ul class="navbar-nav flex-row">
                         <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Exchange</a></li>
+                        <li class="nav-item"><a href="exchange.php" class="nav-link">Exchange</a></li>
                         <li class="nav-item"><a href="contactus.php" class="nav-link">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="header-cta-wrapper">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now <i class="fa fa-arrow-right"></i></button>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@mdo">Register Now <i class="fa fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
@@ -60,7 +61,8 @@
                                 <div class="form-group row">
                                     <div class="col-lg-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 Remember Me
                                             </label>
