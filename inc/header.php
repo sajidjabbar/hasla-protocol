@@ -11,7 +11,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="logo-wrapper">
-                    <a href="#">
+                    <a href="index.php">
                         <figure>
                             <img src="img/logo.png" class="img-fluid" alt="">
                         </figure>
@@ -30,8 +30,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
             </div>
             <div class="col-lg-3">
                 <div class="header-cta-wrapper">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        data-bs-whatever="@mdo">Register Now <i class="fa fa-arrow-right"></i></button>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now <i class="fa fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
@@ -41,6 +40,9 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <i class="fa fa-close"></i>
+            </button>
             <div class="login-form-wrapper">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -57,7 +59,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                             </div>
                             <div class="login-para-wrapper">
                                 <p>Welcome Back to <span>Hasla Protocol</span></p>
-                                <a href="#" class="Member">Not a Member ?</a> <a href="#" class="Register">Register</a>
+                                <a href="#" class="Member">Not a Member ?</a> <button type="button" class="Register" data-bs-toggle="modal" data-bs-target="#Register_modal" data-bs-whatever="@mdo">Register</button>
                             </div>
                             <div class="form-wrapper">
                                 <div class="form-group">
@@ -69,8 +71,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                                 <div class="form-group row">
                                     <div class="col-lg-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 Remember Me
                                             </label>
@@ -92,3 +93,57 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
     </div>
 </div>
 <!-- Login modal starts here -->
+<!-- REGISTER modal starts here -->
+<div class="modal fade" id="Register_modal" tabindex="-1" aria-labelledby="Register_modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <i class="fa fa-close"></i>
+            </button>
+            <div class="login-form-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="img-wrapper">
+                            <figure>
+                                <img src="img/register-bg.png" class="resgister img-fluid" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="login-wrapper">
+                            <div class="heading-wrapper">
+                                <h2>Sign Up</h2>
+                            </div>
+                            <div class="form-wrapper">
+                                <div class="form-group row">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Contact" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="Password" placeholder="Password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="Password" placeholder="Confirm Passwrod" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn" type="submit">Register <i class="fa fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- REGISTER modal starts here -->

@@ -232,11 +232,13 @@ header#header.home {
 	color: #fff;
 	text-decoration: none;
 }
-#exampleModal .modal-content .login-para-wrapper a.Register {
+#exampleModal .modal-content .login-para-wrapper button.Register {
 	font-family: "Poppins";
 	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
+	border: 0px;
+	background: transparent;
 }
 #exampleModal .modal-content .login-para-wrapper {
 	margin-bottom: 30px;
@@ -248,6 +250,22 @@ header#header.home {
 	height: 51px;
 	border: 1px solid #989898;
 }
+#exampleModal .modal-dialog button.btn-close {
+	position: absolute;
+	right: 14px;
+	top: 20px;
+	font-size: 26px;
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
 #exampleModal .form-wrapper input.form-control::placeholder {
 	font-family: "walkway";
 	font-size: 18px;
@@ -257,7 +275,9 @@ header#header.home {
 	margin-right: 13px;
 }
 #exampleModal .modal-dialog {
-	max-width: 918px;
+	max-width: 999px;
+	box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+	border-radius: 20px;
 }
 #exampleModal {
 	background: #80808003;
@@ -278,7 +298,102 @@ header#header.home {
 	justify-content: end;
 }
 /* Login modal wrapper */
-
+/* Login modal wrapper */
+#Register_modal .modal-content {
+	background: #14343a;
+	border-radius: 20px;
+}
+#Register_modal .modal-content figure {
+	margin: 0px;
+}
+#Register_modal .modal-content .login-wrapper h2 {
+	color: #fff;
+	font-size: 39px !important;
+	margin-bottom: 40px;
+}
+#Register_modal .modal-dialog button.btn-close {
+	position: absolute;
+	right: 14px;
+	top: 20px;
+	font-size: 26px;
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+#Register_modal .modal-content .login-para-wrapper p {
+	font-family: "Poppins";
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+#Register_modal .modal-content .login-para-wrapper p span {
+	font-weight: 700;
+}
+#Register_modal .modal-content .login-para-wrapper a.Member {
+	font-family: "Poppins";
+	color: #fff;
+	text-decoration: none;
+}
+#Register_modal .modal-content .login-para-wrapper a.Register {
+	font-family: "Poppins";
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+}
+#Register_modal .modal-content .login-para-wrapper {
+	margin-bottom: 30px;
+}
+#Register_modal .form-wrapper input.form-control {
+	background-color: transparent;
+	border-radius: 0px;
+	margin-bottom: 12px;
+	height: 51px;
+	border: 1px solid #989898;
+}
+#Register_modal .form-wrapper input.form-control::placeholder {
+	font-family: "walkway";
+	font-size: 18px;
+	font-weight: 700;
+}
+#Register_modal .login-wrapper {
+	margin-right: 13px;
+}
+#Register_modal .modal-dialog {
+	max-width: 999px;
+	box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+	border-radius: 20px;
+}
+#Register_modal {
+	background: #80808003;
+	backdrop-filter: blur(20px);
+}
+#Register_modal .login-wrapper label.form-check-label {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 14px;
+}
+#Register_modal button.btn {
+	margin-top: 30px;
+}
+.login-wrapper a.for {
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	justify-content: end;
+}
+#Register_modal img.resgister {
+	mix-blend-mode: luminosity;
+	border-radius: 15px;
+}
+/* Login modal wrapper */
 /* header starts here */
 header#header.home {
 	position: unset;
