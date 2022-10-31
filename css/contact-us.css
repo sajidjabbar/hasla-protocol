@@ -149,6 +149,9 @@ header#header {
 	text-transform: capitalize;
 	text-shadow: 0 0 #fff;
 }
+.social-media-icon-wrapper li i {
+	font-family: "FontAwesome";
+}
 .need-help-sec .support-card-wrapper p {
 	color: #fff;
 }
