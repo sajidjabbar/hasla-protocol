@@ -92,6 +92,56 @@ body {
 	overflow-x: hidden;
 }
 /* universal css ends here */
+
+/* page header starts here */
+header#header {
+	position: absolute !important;
+	top: 0;
+	width: 100%;
+}
+header#header.home {
+	position: unset !important;
+}
+.pageHeader-sec {
+	background-image: url("../img/pageheader-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 145px 0px 50px 0px;
+}
+.pageHeader-sec .page-header-wrapper {
+	text-align: center;
+}
+.pageHeader-sec .page-header-wrapper {
+	text-align: center;
+}
+.pageHeader-sec .page-header-wrapper .heading-wrapper h3 {
+	color: #ffffff;
+	font-family: "hanson";
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul {
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li {
+	margin: 0px 10px;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "walkway";
+	font-size: 16px;
+	font-weight: 700;
+}
+.pageHeader-sec .breadcrumbs-wrapper ul li.base-page a {
+	color: #8c9c9f;
+}
+/* page header ends here */
+
 /* loading starts here */
 #introduction {
 	width: 100vw;
@@ -228,7 +278,11 @@ body {
 	justify-content: end;
 }
 /* Login modal wrapper */
+
 /* header starts here */
+header#header.home {
+	position: unset;
+}
 header#header {
 	padding: 18px 0px 10px 0px;
 	/* background: #00252c; */
@@ -656,7 +710,8 @@ footer.footer p {
 }
 footer.footer .social-icons-wrapper ul {
 	list-style: none;
-	display: flex;
+	padding: 0;
+	margin: 0;
 	justify-content: center;
 }
 footer.footer .social-icons-wrapper {
@@ -665,7 +720,8 @@ footer.footer .social-icons-wrapper {
 	margin-right: 0px;
 }
 footer.footer .social-icons-wrapper ul li {
-	margin: 0px 10px;
+	margin: 0px 4px 8px;
+	display: inline-block;
 }
 footer.footer .social-icons-wrapper ul li a {
 	color: #fff;

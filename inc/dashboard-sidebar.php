@@ -1,8 +1,7 @@
 <div class="dashboard-sidebar">
     <ul class="dashboard-link">
         <li>
-            <a href="#">
-                Home
+            <a href="exchange-dashboard.php">
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.577" height="19.574" viewBox="0 0 19.577 19.574">
                         <path id="Path_817" data-name="Path 817"
@@ -10,11 +9,11 @@
                             transform="translate(6.331 850.652)" fill="#fff" />
                     </svg>
                 </span>
+                Home
             </a>
         </li>
         <li>
             <a href="#">
-                Assets
                 <span>
                     <svg id="Group_778" data-name="Group 778" xmlns="http://www.w3.org/2000/svg" width="19.345"
                         height="19.347" viewBox="0 0 19.345 19.347">
@@ -31,11 +30,11 @@
                             transform="translate(-2381.585 654.905)" fill="#fff" />
                     </svg>
                 </span>
+                Assets
             </a>
         </li>
         <li>
             <a href="#">
-                Trade
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.353" height="19.347" viewBox="0 0 19.353 19.347">
                         <g id="Group_788" data-name="Group 788" transform="translate(-7643.447 -417.232)">
@@ -54,11 +53,11 @@
                         </g>
                     </svg>
                 </span>
+                Trade
             </a>
         </li>
         <li>
             <a href="#">
-                Earn
                 <span>
                     <svg id="Group_780" data-name="Group 780" xmlns="http://www.w3.org/2000/svg" width="22.679"
                         height="22.725" viewBox="0 0 22.679 22.725">
@@ -73,11 +72,11 @@
                             transform="translate(-1722.812 84.686)" fill="#fff" />
                     </svg>
                 </span>
+                Earn
             </a>
         </li>
         <li>
             <a href="#">
-                Pay
                 <span>
                     <svg id="Group_781" data-name="Group 781" xmlns="http://www.w3.org/2000/svg" width="24.31"
                         height="16.198" viewBox="0 0 24.31 16.198">
@@ -89,6 +88,7 @@
                             transform="translate(-1544.522 562.382)" fill="#fff" />
                     </svg>
                 </span>
+                Pay
             </a>
         </li>
     </ul>

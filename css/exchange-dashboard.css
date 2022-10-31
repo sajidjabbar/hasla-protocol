@@ -1,0 +1,362 @@
+/* Exchange Dashboard Css Start Here */
+.exchange_dashboard {
+	padding: 60px 0;
+	background: #01171b;
+}
+.exchange_dashboard .dashboard-sidebar {
+	background-image: linear-gradient(
+		to bottom,
+		#004d5b,
+		#004d5b,
+		#011c2000,
+		#011c20,
+		#011c20
+	);
+	padding: 15px 0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 22px #171b3a;
+	margin-top: 70px;
+}
+.exchange_dashboard .dashboard-sidebar ul {
+	padding: 0;
+	list-style: none;
+}
+.exchange_dashboard .dashboard-sidebar ul li {
+	border-bottom: 1px solid #54617a;
+	padding: 15px 22px;
+}
+.exchange_dashboard .dashboard-sidebar ul li a span svg {
+	margin-right: 4px;
+	width: 40px;
+}
+.exchange_dashboard .dashboard-sidebar ul li a {
+	text-decoration: none;
+	color: #ffffff87;
+}
+.exchange_dashboard .dashboard-sidebar ul li a span svg path {
+	fill: #506a6f;
+}
+.exchange_dashboard .dashboard .topbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #54617a5c;
+	padding-bottom: 15px;
+}
+.exchange_dashboard .dashboard .topbar .heading h3 {
+	font-size: 30px;
+	font-family: "walkway";
+	color: #fff;
+}
+.exchange_dashboard .dashboard .topbar .right-side {
+	display: flex;
+	align-items: center;
+}
+.exchange_dashboard .dashboard .topbar .right-side .button-group button {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border-radius: 0px;
+	border: 0px;
+	background-position: center;
+	padding: 10px 20px;
+	color: #fff;
+	margin-right: 10px;
+}
+.exchange_dashboard .dashboard .topbar .right-side .button-group button svg {
+	margin-left: 10px;
+}
+.exchange_dashboard .dashboard .topbar .right-side .filters {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.exchange_dashboard .dashboard .topbar .right-side .filters button {
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0;
+	width: 42px;
+	height: 42px;
+	border-radius: 50px;
+	margin-right: 5px;
+}
+.exchange_dashboard .dashboard .topbar .right-side .profile {
+	border-left: 1px solid #54617a;
+	padding-left: 12px;
+}
+.exchange_dashboard .dashboard .topbar .right-side .profile button {
+	border: 0;
+	padding: 0;
+	background: transparent;
+}
+.exchange_dashboard .dashboard .topbar .right-side .profile button img {
+	border-radius: 50px;
+}
+.exchange_dashboard .balance-box .your-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+.exchange_dashboard .balance-box .your-box .heading h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "walkway";
+	line-height: 30px;
+	margin: 0;
+}
+.exchange_dashboard .balance-box .your-box .heading h2 {
+	font-size: 28px;
+	font-family: "hanson";
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.exchange_dashboard
+	.balance-box
+	label.favourite_container
+	input:checked
+	~ span.checkmark
+	svg
+	path {
+	fill: #d2d22c !important;
+	stroke: #d2d22c;
+}
+.exchange_dashboard .balance-box .favourite {
+	width: 4%;
+	text-align: center;
+}
+.exchange_dashboard .balance-box h4 {
+	font-size: 14px;
+	color: #fff;
+	font-family: "walkway";
+	margin-bottom: 0;
+}
+.exchange_dashboard .balance-box th {
+	border: 0;
+}
+.exchange_dashboard .balance-box td {
+	border: 0;
+	vertical-align: middle;
+	padding: 15px 10px;
+}
+.exchange_dashboard .balance-box h5.coin-name {
+	font-size: 17px;
+	color: #eff3f9;
+	margin: 0;
+}
+.exchange_dashboard .balance-box h6.short-form {
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+}
+.exchange_dashboard .balance-box td.name figure {
+	margin: 0;
+}
+.exchange_dashboard .balance-box .name {
+	margin-left: 15px;
+}
+.exchange_dashboard .balance-box th.name {
+	padding-left: 35px;
+}
+.exchange_dashboard .balance-box td.name {
+	display: flex;
+	align-items: center;
+	width: 130px;
+	margin: 0;
+}
+.exchange_dashboard .balance-box td.trade button {
+	background: linear-gradient(
+		to bottom,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0;
+	box-shadow: none;
+	padding: 5px 15px;
+	color: #fff;
+}
+.exchange_dashboard .balance-box tbody tr {
+	border-top: 1px solid #54617a59;
+}
+.exchange_dashboard .balance-box td.favourite {
+	display: flex;
+	align-items: center;
+}
+.exchange_dashboard .balance-box td.favourite label {
+	margin-right: 10px;
+}
+.exchange_dashboard .balance-box td.favourite button {
+	border: 0;
+	background: transparent;
+	padding: 0;
+}
+.exchange_dashboard .coin-detail {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 60px;
+}
+.exchange_dashboard .coin-detail .details h4 {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "hanson";
+	margin-bottom: 5px;
+}
+.exchange_dashboard .coin-detail .details p {
+	font-size: 16px;
+	color: #ffffff;
+}
+.exchange_dashboard .coin-detail .details a {
+	color: #2bdeff;
+	font-family: "walkway";
+	font-size: 20px;
+	text-decoration: none;
+}
+.exchange_dashboard .top-movers {
+	padding-top: 40px;
+}
+.exchange_dashboard .top-movers h4 {
+	font-size: 30px;
+	color: #ffffff;
+}
+.exchange_dashboard .top-movers a {
+	color: #2bdeff;
+	text-decoration: none;
+}
+.exchange_dashboard .top-movers .topbar {
+	border: 0;
+	padding: 0;
+}
+.exchange_dashboard .top-movers .coin-lists {
+	padding-top: 15px;
+}
+.exchange_dashboard .top-movers .coin-lists li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+.exchange_dashboard .top-movers .coin-lists li .left .coin-name {
+	display: flex;
+	align-items: center;
+}
+.exchange_dashboard .top-movers .coin-lists li .left .coin-name .name h4 {
+	font-size: 20px;
+}
+.exchange_dashboard .top-movers .coin-lists li .left .coin-name .name span {
+	color: #fff;
+	font-size: 14px;
+}
+.exchange_dashboard .top-movers .coin-lists li p {
+	font-size: 16px;
+	color: #eff3f9;
+	margin: 0;
+}
+.exchange_dashboard .top-movers .coin-lists li span {
+	color: #fff;
+}
+.exchange_dashboard .top-movers .coin-lists li .rate {
+	text-align: end;
+}
+.exchange_dashboard .top-movers .coin-lists li .left .coin-name figure {
+	margin: 0;
+	background: #ffffff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.exchange_dashboard .balance-box .right-side {
+	border-left: 1px solid #54617a;
+	padding-left: 20px;
+	height: 100%;
+	margin-top: 10px;
+}
+/* Exchange Dashboard Css End Here */
+
+/* Exchange Assets Css Start Here */
+.exchange_dashboard .assets-balance {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.exchange_dashboard .assets-balance .heading h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "walkway";
+	line-height: 20px;
+}
+.exchange_dashboard .assets-balance .heading h2 {
+	font-family: "hanson";
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 28px;
+	line-height: 28px;
+}
+.exchange_dashboard .assets-balance ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.exchange_dashboard .assets-balance ul li {
+	display: inline-block;
+}
+.exchange_dashboard .assets-balance ul li button {
+	background: transparent;
+	border: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 17px;
+	margin-left: 10px;
+}
+.exchange_dashboard .assets-chart figure img {
+	width: 100%;
+}
+.exchange_dashboard .your-assets {
+	padding-top: 20px;
+}
+.exchange_dashboard .your-assets .heading {
+	padding-bottom: 10px;
+}
+.exchange_dashboard .your-assets .heading h3 {
+	font-size: 30px;
+	color: #ffffff;
+	font-family: "walkway";
+}
+.exchange_dashboard .your-assets .heading h3 {
+	font-family: "walkway";
+	color: #fff;
+	font-size: 30px;
+}
+.exchange_dashboard .your-assets {
+	padding-top: 20px;
+}
+.exchange_dashboard .your-assets .table-resposnive thead {
+	background-image: linear-gradient(
+		to bottom,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+}
+/* Exchange Assets Css End Here */
