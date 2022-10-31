@@ -145,8 +145,10 @@ header#header {
 .need-help-sec .support-card-wrapper h4 {
 	color: #ffffff;
 	font-size: 30px;
-	font-family: "Circular-Loom";
+	font-family: "walkway";
 	text-transform: uppercase;
+	font-weight: 800;
+	text-transform: capitalize;
 }
 .need-help-sec .support-card-wrapper p {
 	color: #fff;
