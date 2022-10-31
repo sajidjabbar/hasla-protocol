@@ -1,4 +1,4 @@
-<?php 
+<?php
 $directoryURI = $_SERVER['REQUEST_URI'];
 $path = parse_url($directoryURI, PHP_URL_PATH);
 $components = explode('/', $path);
@@ -6,7 +6,7 @@ $first_part = $components[1];
 $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 
-<header id="header" class="<?= ($activePage == 'index') ? 'home':''; ?>">
+<header id="header" class="<?= ($activePage == 'index') ? 'home' : ''; ?>">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-3">
