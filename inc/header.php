@@ -23,7 +23,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                     <ul class="navbar-nav flex-row">
                         <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
-                        <li class="nav-item"><a href="exchange.php" class="nav-link">Exchange</a></li>
+                        <li class="nav-item"><a href="exchange.php" class="nav-link">Buy Crypto</a></li>
                         <li class="nav-item"><a href="contactus.php" class="nav-link">Contact Us</a></li>
                     </ul>
                 </div>

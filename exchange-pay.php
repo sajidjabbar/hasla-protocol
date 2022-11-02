@@ -14,13 +14,13 @@
             <div class="col-lg-12">
                 <div class="page-header-wrapper">
                     <div class="heading-wrapper">
-                        <h3>EXCHANGE</h3>
+                        <h3>Buy Crypto</h3>
                     </div>
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
                             <li class="arrow"><a href="#">></a></li>
-                            <li class="current-page"><a href="#">EXCHANGE</a></li>
+                            <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -110,17 +110,103 @@
                                     <button class="btn">Send All</button>
                                 </div>
                                 <div class="btc-wrapper">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
-                                        <text id="Send_All" data-name="Send All" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI">
-                                            <tspan x="0" y="22">Send All</tspan>
-                                        </text>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.128" x2="1" y2="1.202" gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#2bdeff" />
+                                                <stop offset="1" stop-color="#01667a" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="Group_893" data-name="Group 893" transform="translate(-1312 -658)">
+                                            <g id="Group_930" data-name="Group 930">
+                                                <circle id="Ellipse_138" data-name="Ellipse 138" cx="21" cy="21" r="21" transform="translate(1312 658)" fill="url(#linear-gradient)" />
+                                                <path id="Icon_material-compare-arrows" data-name="Icon material-compare-arrows" d="M12,19.061H3V21.63h9v3.854l5.125-5.138L12,15.207v3.854Zm7.681-1.285V13.923h9V11.354h-9V7.5l-5.125,5.138Z" transform="translate(1316.5 694.345) rotate(-90)" fill="#fff" />
+                                            </g>
+                                        </g>
                                     </svg>
-
+                                    <h6>BTC</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pay-detail-wrapper">
+                            <div class="play-first-row-wrapper">
+                                <h6>Play With</h6>
+                                <div class="coin-wrapper">
+                                    <h5><img src="img/bitcoin-icon.png" class="img-fluid" alt=""> Bitcoin</h5>
+                                </div>
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                            <div class="email-row-wrapper">
+                                <h6>To</h6>
+                                <div class="wall-email-wrapper">
+                                    <h6><img src="img/wall.png" alt=""> Mobile, Email Or Address</h6>
+                                </div>
+                                <div class="arrow-wrapper">
+                                    <button class="top-arrow"><i class="fa fa-angle-up"></i></button>
+                                    <button class="bottom-arrow"><i class="fa fa-angle-down"></i></button>
+                                </div>
+                            </div>
+                            <div class="email-row-wrapper">
+                                <h6>Note</h6>
+                                <div class="wall-email-wrapper">
+                                    <h6><i class="fa fa-pencil"></i> Optional Message</h6>
+                                </div>
+                                <div class="arrow-wrapper">
+                                    <button class="top-arrow"><i class="fa fa-angle-up"></i></button>
+                                    <button class="bottom-arrow"><i class="fa fa-angle-down"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper mt-3">
+                            <button class="btn form-control">Continue <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                        <div class="btc-bal-wrapper">
+                            <h6>BTC Balance</h6>
+                            <h6>0.00002865 BTC = $0.58</h6>
+                        </div>
+                        <div class="trans-wrapper">
+                            <h3>Transaction</h3>
+                            <div class="trans-btn-wrapper">
+                                <button class="btn">Send</button>
+                                <button class="btn-Recieve">Recieve</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="reccieve-tab-wrapper">
+                            <div class="pay-detail-wrapper">
+                                <div class="email-row-wrapper bit">
+                                    <div class="wall-email-wrapper">
+                                        <h5>Bitcoin <i class="fa fa-angle-right"></i></h5>
+                                        <h6> BTC wallet</h6>
+                                    </div>
+                                    <div class="arrow-wrapper">
+                                        <img src="img/qr.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="email-row-wrapper address">
+                                    <div class="bt">
+                                        <h6>BTC Address</h6>
+                                        <span>21465Xjgfvsgdc465csa4c65sa46....</span>
+                                    </div>
+                                    <div class="wall-email-wrapper">
+                                        <h6><i class="fa fa-clone"></i> Copy</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="only-send">
+                                <h6><i class="fa fa-info" aria-hidden="true"></i>
+                                    Only Send Bitcoin BTC To This Address</h6>
+                            </div>
+                            <div class="trans-wrapper">
+                                <h3>Transaction</h3>
+                                <div class="trans-btn-wrapper">
+                                    <button class="btn">Send</button>
+                                    <button class="btn-Recieve">Recieve</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
                 </div>
             </div>
             <div class="col-lg-3">

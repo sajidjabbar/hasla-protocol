@@ -13,13 +13,13 @@
             <div class="col-lg-12">
                 <div class="page-header-wrapper">
                     <div class="heading-wrapper">
-                        <h3>EXCHANGE</h3>
+                        <h3>Buy Crypto</h3>
                     </div>
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
                             <li class="arrow"><a href="#">></a></li>
-                            <li class="current-page"><a href="#">EXCHANGE</a></li>
+                            <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                         <div class="img-wrapper">
 
                             <img src="img/gra.png" class="img-fluid coin-img" alt="">
-    
+
                         </div>
                         <div class="bal-heading-wrapper">
                             <h5>Learn about recurring buy</h5>

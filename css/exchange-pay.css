@@ -1,56 +1,292 @@
 .exchange_dashboard .pay-side-wrapper {
-  border-left: 1px solid #707070;
+	border-left: 1px solid #707070;
 }
 .exchange_dashboard .gift-card-wrapper {
-  padding: 10px 10px 20px 10px;
-  border-bottom: 1px solid #707070;
+	padding: 10px 10px 20px 10px;
+	border-bottom: 1px solid #707070;
 }
 .exchange_dashboard .gift-card-wrapper .gift-content-wrapper h5 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 22px;
-  font-weight: 700;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
 }
 .exchange_dashboard .gift-card-wrapper .gift-content-wrapper p {
-  color: #fff;
-  font-size: 15px;
-  font-family: "walkway";
-  font-weight: 700;
+	color: #fff;
+	font-size: 15px;
+	font-family: "walkway";
+	font-weight: 700;
 }
 .exchange_dashboard .gift-card-wrapper .gift-content-wrapper a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "walkway";
+	text-decoration: none;
+	color: #fff;
+	font-family: "walkway";
 }
 .exchange_dashboard .pay-side-wrapper .recent-send h4 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 22px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 22px;
 }
 .exchange_dashboard .pay-side-wrapper .recent-send p {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 0px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 0px;
 }
 .exchange_dashboard .pay-side-wrapper .recent-send {
-  padding: 28px 0px 10px 10px;
-  border-bottom: 1px solid #707070;
+	padding: 28px 0px 10px 10px;
+	border-bottom: 1px solid #707070;
 }
 .pay-side-wrapper .wallet-details {
-  display: flex;
-  align-items: center;
-  padding: 28px 10px 10px 10px;
+	display: flex;
+	align-items: center;
+	padding: 28px 10px 10px 10px;
 }
 .pay-side-wrapper .wallet-details .wallet-des-wrapper h6 {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 0px;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 0px;
 }
 .pay-side-wrapper .wallet-details .wallet-des-wrapper span {
-  color: #fff;
+	color: #fff;
 }
 .pay-side-wrapper .wallet-details .wallet-des-wrapper {
-  margin-left: 10px;
+	margin-left: 10px;
+}
+.exchange_dashboard ul#myTab {
+	margin-top: 30px;
+	border-bottom: 0px;
+}
+.exchange_dashboard .amount-send-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.exchange_dashboard .amount-send-wrapper .send-all {
+	display: flex;
+	align-items: start;
+}
+.exchange_dashboard .wallet-amount h6 {
+	font-family: "walkway";
+	font-size: 54px;
+	color: #fff;
+}
+.exchange_dashboard .wallet-amount h6 span {
+	font-family: "walkway";
+	font-size: 117px;
+	font-weight: 500;
+}
+.exchange_dashboard ul#myTab li.nav-item {
+	flex: 0 0 50%;
+}
+.exchange_dashboard ul#myTab li.nav-item button {
+	width: 100%;
+	border-radius: 0px;
+	background: #1d3235;
+	border: 0px;
+	color: #fff;
+	font-size: 20px;
+}
+.exchange_dashboard ul#myTab li.nav-item button.active {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 20px;
+}
+.exchange_dashboard .amount-send-wrapper .btc-wrapper {
+	margin-left: 24px;
+}
+.exchange_dashboard .amount-send-wrapper .send-all button.btn {
+	width: 127px;
+}
+.exchange_dashboard .amount-send-wrapper .btc-wrapper h6 {
+	font-family: "walkway";
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+.pay-detail-wrapper .play-first-row-wrapper {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #394547;
+}
+.exchange_dashboard .pay-detail-wrapper {
+	border: 1px solid #394547;
+	margin-top: 10px;
+}
+.pay-detail-wrapper .play-first-row-wrapper .coin-wrapper {
+	flex: 0 0 70%;
+}
+.pay-detail-wrapper .play-first-row-wrapper h6 {
+	flex: 0 0 20%;
+	margin-bottom: 0px;
+	padding: 15px;
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
+}
+.pay-detail-wrapper .play-first-row-wrapper i {
+	flex: 0 0 10%;
+	text-align: center;
+	color: #fff;
+}
+.pay-detail-wrapper .play-first-row-wrapper .coin-wrapper h5 {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
+	margin: 0px;
+}
+.pay-detail-wrapper .play-first-row-wrapper .coin-wrapper h5 img {
+	height: 31px;
+	width: 31px;
+}
+.exchange_dashboard .pay-detail-wrapper .email-row-wrapper {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #707070;
+}
+.exchange_dashboard .pay-detail-wrapper .email-row-wrapper .wall-email-wrapper {
+	flex: 0 0 70%;
+}
+.exchange_dashboard .pay-detail-wrapper .email-row-wrapper h6 {
+	flex: 0 0 20%;
+	margin-bottom: 0px;
+	padding: 15px;
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
+}
+.exchange_dashboard .pay-detail-wrapper .email-row-wrapper .arrow-wrapper {
+	flex: 0 0 10%;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.exchange_dashboard
+	.pay-detail-wrapper
+	.email-row-wrapper
+	.arrow-wrapper
+	button {
+	margin: 0px;
+	border: 0px;
+	background: #22363a;
+	width: 29px;
+	height: 32px;
+	color: #fff;
+}
+.exchange_dashboard
+	.pay-detail-wrapper
+	.email-row-wrapper
+	.arrow-wrapper
+	button.top-arrow {
+	background: #73939a;
+}
+.exchange_dashboard .btn-wrapper button.btn {
+	width: 100%;
+}
+.exchange_dashboard .btc-bal-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.exchange_dashboard .btc-bal-wrapper h6 {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
+	font-weight: 700;
+}
+.exchange_dashboard .trans-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.exchange_dashboard .trans-wrapper .trans-btn-wrapper {
+	display: flex;
+	align-items: center;
+}
+.exchange_dashboard .trans-wrapper .trans-btn-wrapper button.btn-Recieve {
+	border: 0px;
+	height: 40px;
+	width: 115px;
+	background: #1d3439;
+	color: #fff;
+}
+.exchange_dashboard .trans-wrapper .trans-btn-wrapper button.btn {
+	width: 115px;
+}
+.exchange_dashboard .trans-wrapper h3 {
+	font-family: "walkway";
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+.exchange_dashboard .only-send {
+	background: #10282d;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-top: 30px;
+}
+.exchange_dashboard .only-send h6 {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 18px;
+	margin: 0px;
+}
+.exchange_dashboard .only-send h6 i {
+	width: 29px;
+	height: 29px;
+	background: gainsboro;
+	text-align: center;
+	line-height: 1.5;
+	border-radius: 50%;
+	color: #01171b;
+}
+.exchange_dashboard .reccieve-tab-wrapper .bit {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.exchange_dashboard .reccieve-tab-wrapper .bit .wall-email-wrapper {
+	padding: 0px 10px 10px 10px;
+	flex: 0 0 63%;
+}
+z .exchange_dashboard .reccieve-tab-wrapper .bit .wall-email-wrapper h6 {
+	padding: 0px;
+	font-size: 18px;
+}
+.exchange_dashboard .reccieve-tab-wrapper .bit .wall-email-wrapper h5 {
+	font-family: "hanson";
+	font-size: 26px;
+	color: #fff;
+}
+.exchange_dashboard .reccieve-tab-wrapper .address .bt {
+	flex: 0 0 50%;
+	padding: 10px;
+}
+.exchange_dashboard .reccieve-tab-wrapper .address .wall-email-wrapper {
+	flex: 0 0 50%;
+	text-align: end;
+}
+.exchange_dashboard .reccieve-tab-wrapper .address .bt h6 {
+	padding: 0px;
+}
+.exchange_dashboard .reccieve-tab-wrapper .address .bt span {
+	font-family: "walkway";
+	color: #fff;
+	font-size: 18px;
 }
