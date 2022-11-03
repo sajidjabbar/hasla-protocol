@@ -159,6 +159,115 @@
                         </div>
                     </div>
                 </div>
+                <div class="bitcoin-decline-wrapper">
+                    <div class="heading-wrapper">
+                        <h3>Bitcoin is on the decline this week</h3>
+                    </div>
+                    <div class="decline-des-wrapper">
+                        <p>The price declined by 0.45% in the last 24 hours. In just the past hour, the price grew by 0.02%. The current price is PKR 4,516,341.380589 per BTC. Bitcoin is 70.61% below the all time high of USD 15,368,344.034709. </p>
+                        <p>
+                            The current circulating supply is 19,170,306 BTC.
+                        </p>
+                    </div>
+                </div>
+                <div class="related-assets-wrapper">
+                    <div class="heading-wrapper">
+                        <h3>Related Assets</h3>
+                    </div>
+                </div>
+                <div class="trending-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="heading-wrapper">
+                                <h3>Trending Assets</h3>
+                                <p>
+                                    Assets with biggest change in unique page views on coinbase.com over the past 24 hours.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coins-wrapper">
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>SHPING</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>IDEX</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>DIA</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>GYEN</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>SHPING</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>IDEX</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>DIA</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>GYEN</h4>
+                        </div>  
+                    </div>
+
+                </div>
+                <div class="trending-wrapper popoluar-currency">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="heading-wrapper">
+                                <h3>Popular cryptocurrencies</h3>
+                                <p>
+                                    Assets with biggest change in unique page views on coinbase.com over the past 24 hours.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coins-wrapper">
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Bitcoin</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Ethereum</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Tether</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>USD Coin</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Binance USD</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Cardano</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Solana</h4>
+                        </div>
+                        <div class="coins-card-wrapper">
+                            <img src="img/eth.png" class="img-fluid" alt="">
+                            <h4>Dogecoin</h4>
+                        </div>  
+                    </div>
+                </div>
             </div>
         </div>
     </div>
