@@ -406,6 +406,29 @@ header#header .menu-wrapper ul {
 	display: flex;
 	justify-content: center;
 }
+header#header li.nav-item.dropdown ul.dropdown-menu {
+	display: none;
+}
+header#header li.nav-item.dropdown:hover ul.dropdown-menu {
+	display: block;
+	position: absolute;
+	border-radius: 0px;
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	color: #fff;
+}
+header#header li.nav-item.dropdown:hover ul.dropdown-menu * {
+	color: #fff;
+}
+header#header li.nav-item.dropdown:hover ul.dropdown-menu a:hover {
+	background: inherit;
+}
 header#header .menu-wrapper ul a.nav-link {
 	font-size: 20px;
 	margin: 0px 20px;

@@ -23,7 +23,19 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                     <ul class="navbar-nav flex-row">
                         <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
-                        <li class="nav-item"><a href="exchange.php" class="nav-link">Buy Crypto</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" onclick="location.href='exchange.php'" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Buy Crypto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="exchange-trade.php">Trading</a></li>
+                                <li><a class="dropdown-item" href="exchange.php">Exchange</a></li>
+                                <li><a class="dropdown-item" href="#">Staking</a></li>
+                                <li><a class="dropdown-item" href="#">Cloud Mining</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- <li class="nav-item"><a href="exchange.php" class="nav-link"></a></li> -->
                         <li class="nav-item"><a href="contactus.php" class="nav-link">Contact Us</a></li>
                     </ul>
                 </div>
