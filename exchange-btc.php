@@ -218,7 +218,7 @@
                         <div class="coins-card-wrapper">
                             <img src="img/eth.png" class="img-fluid" alt="">
                             <h4>GYEN</h4>
-                        </div>  
+                        </div>
                     </div>
 
                 </div>
@@ -265,7 +265,7 @@
                         <div class="coins-card-wrapper">
                             <img src="img/eth.png" class="img-fluid" alt="">
                             <h4>Dogecoin</h4>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>

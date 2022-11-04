@@ -1,0 +1,116 @@
+.exchange-sell {
+	padding: 60px 0px;
+}
+.buy-and-sell-wrapper li.nav-item {
+	flex: 0 0 33%;
+}
+.buy-and-sell-wrapper li.nav-item button {
+	width: 100%;
+	border-radius: 0px;
+	color: #606e70;
+	font-family: "walkway";
+	font-size: 20px;
+	font-weight: 500;
+}
+.buy-and-sell-wrapper li.nav-item button.active {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	color: #000000;
+}
+.buy-and-sell-wrapper {
+	background: #0b2024;
+	box-shadow: 0px 0px 22px #171b3a;
+	border-radius: 0px 0px 10px 10px;
+}
+.buy-and-sell-wrapper ul#pills-tab {
+	border-bottom: 1px solid #fff;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: end;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .currency-wrapper {
+	flex: 0 0 90%;
+	text-align: center;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .currency-wrapper h3 {
+	font-family: "walkway";
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .currency-wrapper h3 span {
+	font-family: "walkway";
+	font-size: 147px;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .btc_wrapper {
+	text-align: center;
+	flex: 0 0 10%;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .btc_wrapper h5 {
+	font-family: "walkway";
+	font-size: 16px;
+	color: #fff;
+	margin-top: 11px;
+}
+.buy-and-sell-wrapper .sell-wrapper .see-all-wrapper .currency-wrapper a.btn {
+	margin-left: 58px;
+	border: 1px solid;
+	background: transparent;
+	font-family: "walkway";
+	font-size: 20px;
+}
+.buy-and-sell-wrapper .sells-wrapper {
+	padding: 0px 20px;
+	margin-top: 30px;
+}
+.buy-and-sell-wrapper .sells-wrapper .sell-card-wrapper {
+	display: flex;
+	border: 1px solid #989898;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 70px;
+	margin-bottom: 20px;
+}
+.buy-and-sell-wrapper .sells-wrapper .sell-card-wrapper h5 {
+	flex: 0 0 20%;
+	text-align: center;
+	color: #879294;
+	font-family: "walkway";
+	font-size: 22px;
+}
+.buy-and-sell-wrapper .sells-wrapper .sell-card-wrapper h6 {
+	flex: 0 0 65%;
+	text-align: center;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 22px;
+	margin: 0px;
+}
+.buy-and-sell-wrapper .sells-wrapper .sell-card-wrapper button {
+	flex: 0 0 15%;
+	background: transparent;
+	border: 0px;
+	color: #fff;
+}
+.buy-and-sell-wrapper .btn-wrapper a.btn {
+	width: 94%;
+	margin: 0px 20px;
+}
+.buy-and-sell-wrapper .btc-balance-wrapper {
+	padding: 25px;
+}
+.buy-and-sell-wrapper .btc-balance-wrapper h5 {
+	color: #ffffff;
+	font-family: "walkway";
+	font-size: 20px;
+	font-weight: 700;
+}

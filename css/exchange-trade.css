@@ -1,0 +1,170 @@
+.your-assets th {
+	font-size: 14px;
+}
+
+.your-assets td .btn {
+	width: 128px !important;
+}
+.exchange_dashboard .tabs-wrapper {
+	padding: 17px 0px;
+	border-top: 1px solid #12262e;
+	border-bottom: 1px solid #12262e;
+	margin-top: 20px;
+}
+.exchange_dashboard .tabs-wrapper ul {
+	margin-bottom: 0px !important;
+	justify-content: space-around;
+}
+.exchange_dashboard .tabs-wrapper ul button.nav-link.active {
+	background: #2bdeff;
+	padding: 6px 24px;
+	border-radius: 28px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "walkway";
+}
+.exchange_dashboard .tabs-wrapper ul button.nav-link {
+	color: #fff;
+	font-family: "walkway";
+	font-weight: 600;
+}
+.exchange_dashboard .payment-card-wrapper {
+	background-image: linear-gradient(
+		to bottom,
+		#004d5b,
+		#004d5b,
+		#011c2000,
+		#011c20,
+		#011c20
+	);
+	padding: 20px;
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+	box-shadow: 0px 0px 22px #171b3a;
+}
+.exchange_dashboard .payment-card-wrapper h4 {
+	font-family: "walkway";
+	font-size: 22px;
+	color: #fff;
+}
+.exchange_dashboard .payment-card-wrapper p {
+	color: #fff;
+	font-size: 18px;
+}
+.exchange_dashboard .payment-card-wrapper .btn-wrapper a {
+	width: 100%;
+}
+.recent-wrapper {
+	background-image: linear-gradient(
+		to bottom,
+		#004d5b,
+		#004d5b,
+		#011c2000,
+		#011c20,
+		#011c20
+	);
+	padding: 20px;
+	border-radius: 8px;
+	margin: 20px 0px;
+	box-shadow: 0px 0px 22px #171b3a;
+}
+.recent-wrapper h4 {
+	font-family: "walkway";
+	font-size: 22px;
+	color: #fff;
+}
+.recent-wrapper p {
+	color: #fff;
+	font-size: 18px;
+}
+.recent-wrapper .btn-wrapper a {
+	width: 100%;
+}
+.top-bar-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.top-bar-wrapper input.form-control {
+	background: transparent;
+	border-radius: 0px;
+	padding: 8px 20px;
+}
+
+.top-bar-wrapper .all-assets-wrapper {
+	display: flex;
+}
+
+.top-bar-wrapper .all-assets-wrapper select.form-control {
+	background: #011e24;
+	border-radius: 0px;
+	color: #fff;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-position: 95%;
+}
+.top-bar-wrapper .all-assets-wrapper select.form-control:first-child {
+	width: 94px;
+	margin-right: 10px;
+}
+.exchange_dashboard .dashboard .topbar .tabs-wrapper {
+	padding: 0px;
+	border: 0px;
+	flex: 0 0 10%;
+}
+.exchange_dashboard .dashboard .topbar .tabs-wrapper ul {
+	list-style: none;
+	display: flex;
+	padding: 0px;
+}
+.exchange_dashboard .dashboard .topbar .tabs-wrapper ul li button.nav-link {
+	padding: 6px 24px;
+	background: transparent;
+	border: 0px;
+}
+.exchange_dashboard
+	.dashboard
+	.topbar
+	.tabs-wrapper
+	ul
+	li
+	button.nav-link.active {
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+}
+.exchange_dashboard .dashboard .topbar .heading {
+	flex: 0 0 10%;
+}
+.exchange_dashboard .dashboard .topbar .right-side:first-child {
+	display: flex;
+	align-items: center;
+	flex: 0 0 79%;
+	justify-content: end;
+}
+.exchange_dashboard .dashboard .topbar .right-side .button-group {
+	display: flex;
+}
+.exchange_dashboard .dashboard .topbar .right-side .button-group button {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border-radius: 0px;
+	border: 0px;
+	background-position: center;
+	padding: 10px 0px;
+	color: #fff;
+	margin-right: 10px;
+	font-size: 13px;
+}

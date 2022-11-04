@@ -20,6 +20,13 @@
         // $(window).on('load', function() {
         //     $("#preloader").fadeOut(1000);
         // });
+
+        $('.exchange-confrim .your-purchase-wrapper').hide();
+        $('.confirm-content-wrapper .btn-wrapper a').click(function() {
+            $('.exchange-confrim .your-purchase-wrapper').show();
+            $('.confirm-content-wrapper').hide();
+        });
+
         var swiper = new Swiper(".vision-slider", {
             effect: "cards",
             grabCursor: true,
