@@ -18,7 +18,7 @@
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
-                            <li class="arrow"><a href="#">></a></li>
+                            <li class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>

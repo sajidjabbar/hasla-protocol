@@ -1,133 +1,167 @@
+header#header::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-image: url("../img/page-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  background-position: center right;
+  position: absolute;
+  bottom: -22px;
+}
 .exchange_dashboard .earn-wrapper {
-	padding: 30px 0px;
+  padding: 30px 0px;
 }
 .exchange_dashboard .earn-wrapper .learning-wrapper h6 {
-	font-family: "walkway";
-	font-size: 20px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 20px;
+  color: #fff;
 }
 .exchange_dashboard .earn-wrapper .learning-wrapper h5 {
-	font-family: "hanson";
-	color: #fff;
-	font-size: 24px;
+  font-family: "hanson";
+  color: #fff;
+  font-size: 24px;
 }
 .exchange_dashboard .earn-wrapper .learning-wrapper p {
-	font-family: "walkway";
-	font-size: 15px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 15px;
+  color: #fff;
 }
 .exchange_dashboard .earn-wrapper .yeild-wrapper h6 {
-	font-family: "walkway";
-	font-size: 20px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 20px;
+  color: #fff;
 }
 .exchange_dashboard .earn-wrapper .yeild-wrapper h5 {
-	font-family: "hanson";
-	color: #fff;
-	font-size: 24px;
+  font-family: "hanson";
+  color: #fff;
+  font-size: 24px;
 }
 .exchange_dashboard .earn-wrapper .yeild-wrapper p {
-	font-family: "walkway";
-	font-size: 15px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 15px;
+  color: #fff;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper {
-	display: flex;
-	align-items: center;
-	border-top: 1px solid #12272f;
-	border-bottom: 1px solid #12272f;
-	padding: 11px 0px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #12272f;
+  border-bottom: 1px solid #12272f;
+  padding: 11px 0px;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .img-wrapper {
-	flex: 0 0 15%;
+  flex: 0 0 15%;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .yeild-content-wrapper {
-	flex: 0 0 70%;
+  flex: 0 0 70%;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .btn-wrapper {
-	flex: 0 0 15%;
-	text-align: end;
+  flex: 0 0 15%;
+  text-align: end;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .img-wrapper figure {
-	margin: 0px;
+  margin: 0px;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .yeild-content-wrapper p {
-	margin: 0px;
+  margin: 0px;
 }
 .exchange_dashboard
-	.earn-wrapper
-	.learn-yeld-wrapper
-	.yeild-content-wrapper
-	h6 {
-	margin: 0px;
-	color: #fff;
-	font-family: "walkway";
-	font-size: 20px;
-	font-weight: 700;
+  .earn-wrapper
+  .learn-yeld-wrapper
+  .yeild-content-wrapper
+  h6 {
+  margin: 0px;
+  color: #fff;
+  font-family: "walkway";
+  font-size: 20px;
+  font-weight: 700;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .yeild-content-wrapper p {
-	font-family: "walkway";
-	color: #eff3f9;
-	font-size: 14px;
+  font-family: "walkway";
+  color: #eff3f9;
+  font-size: 14px;
 }
 .exchange_dashboard .earn-wrapper .learn-yeld-wrapper .btn-wrapper a {
-	color: #fff;
-	padding-right: 11px;
+  color: #fff;
+  padding-right: 11px;
 }
 .exchange_dashboard .first-col {
-	margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 .disccovery-heading-wrapper h4 {
-	font-family: "walkway";
-	font-size: 30px;
-	color: #eff3f9;
+  font-family: "walkway";
+  font-size: 30px;
+  color: #eff3f9;
 }
 .disccovery-heading-wrapper p {
-	color: #ffffff;
-	font-family: "walkway";
-	font-size: 16px;
+  color: #ffffff;
+  font-family: "walkway";
+  font-size: 16px;
 }
 .disccovery-heading-wrapper {
-	margin-bottom: 40px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #12272f;
+  padding-bottom: 12px;
 }
 .discovery-row-wrapper .discovery-card-wrapper {
-	background-image: linear-gradient(
-		to bottom,
-		#004d5b,
-		#004d5b,
-		#011c2000,
-		#011c20,
-		#011c20
-	);
-	padding: 25px 20px;
-	border-radius: 9px;
-	box-shadow: 0px 0px 22px #171b3a;
-	margin-bottom: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    #004d5b,
+    #004d5b,
+    #011c2000,
+    #011c20,
+    #011c20
+  );
+  padding: 25px 20px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 22px #171b3a;
+  margin-bottom: 30px;
 }
 .discovery-row-wrapper .discovery-card-wrapper .dixcovery-content-wrapper h4 {
-	font-family: "walkway";
-	font-size: 16px;
-	color: #fff;
-	font-weight: 700;
+  font-family: "walkway";
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
 }
 .discovery-row-wrapper .discovery-card-wrapper .dixcovery-content-wrapper h3 {
-	font-family: "walkway";
-	font-size: 30px;
-	font-weight: 700;
-	color: #fff;
-	margin-bottom: 25px;
+  font-family: "walkway";
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
 }
 .discovery-row-wrapper
-	.discovery-card-wrapper
-	.dixcovery-content-wrapper
-	h3
-	span {
-	font-family: "walkway";
-	font-size: 16px;
-	font-weight: 700;
+  .discovery-card-wrapper
+  .dixcovery-content-wrapper
+  h3
+  span {
+  font-family: "walkway";
+  font-size: 16px;
+  font-weight: 700;
 }
 .discovery-row-wrapper .discovery-card-wrapper .dixcovery-content-wrapper a {
-	color: #fff;
-	font-family: "walkway";
-	text-decoration: none;
+  color: #fff;
+  font-family: "walkway";
+  text-decoration: none;
+}
+.exchange_dashboard .yeild-heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 49px 0px 40px;
+  border-bottom: 1px solid #12272f;
+}
+.exchange_dashboard .yeild-heading-wrapper h4 {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Walkway";
+  margin-bottom: 0px;
+}
+.exchange_dashboard .yeild-heading-wrapper h6 {
+  font-family: "Walkway";
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
 }

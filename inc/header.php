@@ -31,7 +31,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                                 <li><a class="dropdown-item" href="exchange-trade.php">Trading</a></li>
                                 <li><a class="dropdown-item" href="exchange.php">Exchange</a></li>
                                 <li><a class="dropdown-item" href="#">Staking</a></li>
-                                <li><a class="dropdown-item" href="#">Cloud Mining</a></li>
+                                <li><a class="dropdown-item" href="pricing.php">Cloud Mining</a></li>
                             </ul>
                         </li>
 

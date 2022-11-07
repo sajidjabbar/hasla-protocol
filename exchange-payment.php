@@ -14,7 +14,7 @@
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
-                            <li class="arrow"><a href="#">></a></li>
+                            <li class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>
@@ -45,56 +45,61 @@
                                     <div class="checkbox-wrapper">
                                         <div class="row">
                                             <div class="col-lg-4">
-                                                <label class="check-wrapper" for="flexRadioDefault1">
-                                                    <input type="radio" name="radio" id="flexRadioDefault1">
-                                                    <div class="img-wrapper">
-                                                        <figure>
-                                                            <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
-                                                        </figure>
-                                                    </div>
-                                                    <div class="check-icon-wrapper">
-                                                        <img src="img/checked-icon.png" class="checked-icon" alt="">
-                                                    </div>
-                                                    <div class="content-wrapper">
-                                                        <h4>Bitcoin</h4>
-                                                        <h5>@ $12,460.96</h5>
-                                                    </div>
+                                                <label for="flexRadioDefault10">
+                                                    <input type="radio" name="radio" id="flexRadioDefault10">
+                                                    <span class="check-wrapper">
+                                                        <div class="img-wrapper">
+                                                            <figure>
+                                                                <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="check-icon-wrapper">
+                                                            <img src="img/checked-icon.png" class="checked-icon" alt="">
+                                                        </div>
+                                                        <div class="content-wrapper">
+                                                            <h4>Bitcoin</h4>
+                                                            <h5>@ $12,460.96</h5>
+                                                        </div>
+                                                    </span>
+
                                                 </label>
                                             </div>
                                             <div class="col-lg-4">
-                                                <label class="check-wrapper" for="flexRadioDefault2">
-                                                    <input type="radio" name="radio" id="flexRadioDefault2">
-                                                    <div class="img-wrapper">
-                                                        <figure>
-                                                            <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
-                                                        </figure>
-                                                    </div>
-                                                    <div class="check-icon-wrapper">
-                                                        <img src="img/checked-icon.png" class="checked-icon" alt="">
-                                                    </div>
-                                                    <div class="content-wrapper">
-                                                        <h4>Bitcoin</h4>
-                                                        <h5>@ $12,460.96</h5>
-                                                    </div>
+                                                <label for="flexRadioDefault20">
+                                                    <input type="radio" name="radio" id="flexRadioDefault20">
+                                                    <span class="check-wrapper">
+                                                        <div class="img-wrapper">
+                                                            <figure>
+                                                                <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="check-icon-wrapper">
+                                                            <img src="img/checked-icon.png" class="checked-icon" alt="">
+                                                        </div>
+                                                        <div class="content-wrapper">
+                                                            <h4>Ethereum</h4>
+                                                            <h5>@ $12,460.96</h5>
+                                                        </div>
+                                                    </span>
                                                 </label>
                                             </div>
                                             <div class="col-lg-4">
-                                                <label class="check-wrapper" for="flexRadioDefault3">
-                                                    <input type="radio" name="radio" id="flexRadioDefault3">
-                                                    <div class="img-wrapper">
-                                                        <figure>
-                                                            <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
-                                                        </figure>
-
-
-                                                    </div>
-                                                    <div class="check-icon-wrapper">
-                                                        <img src="img/checked-icon.png" class="checked-icon" alt="">
-                                                    </div>
-                                                    <div class="content-wrapper">
-                                                        <h4>Bitcoin</h4>
-                                                        <h5>@ $12,460.96</h5>
-                                                    </div>
+                                                <label for="flexRadioDefault30">
+                                                    <input type="radio" name="radio" id="flexRadioDefault30">
+                                                    <span class="check-wrapper">
+                                                        <div class="img-wrapper">
+                                                            <figure>
+                                                                <img src="img/bitcoin-icon.png" class="img-fluid" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="check-icon-wrapper">
+                                                            <img src="img/checked-icon.png" class="checked-icon" alt="">
+                                                        </div>
+                                                        <div class="content-wrapper">
+                                                            <h4>Litecoin</h4>
+                                                            <h5>@ $12,460.96</h5>
+                                                        </div>
+                                                    </span>
                                                 </label>
                                             </div>
                                         </div>
@@ -112,8 +117,8 @@
                                                 <h6>Checking. *************</h6>
                                             </div>
                                             <div class="icon-toggle-wrapper">
-                                                <button class="up-arrow"><i class="fa fa-arrow-up"></i></button>
-                                                <button class="down-arrow"><i class="fa fa-arrow-down"></i></button>
+                                                <button class="up-arrow"><i class="fa fa-angle-up"></i></button>
+                                                <button class="down-arrow"><i class="fa fa-angle-down"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -132,47 +137,48 @@
                                                 <span>USD</span>
                                             </div>
                                         </div>
-                                        <div class="arrows-wrapper">
-                                            <i class="fa fa-arrow-left"></i>
-                                            <i class="fa fa-arrow-right"></i>
+                                        <div class="arrows-wrapper text-center">
+                                            <!-- <i class="fa fa-arrow-left"></i>
+                                            <i class="fa fa-arrow-right"></i> -->
+                                            <img src="img/switch-arrow.png" class="img-fluid" alt="">
                                         </div>
                                         <div class="weekly-wrapper">
                                             <h3>$15,000.00 Remaining . Increase Limit</h3>
                                             <input type="text" class="form-control limit-field">
                                         </div>
                                     </div>
-                                    <div class="row pt-3" id="Repeat">
+                                    <div class="row pt-3 align-items-center" id="Repeat">
                                         <div class="col-lg-5">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
-                                                    Default checkbox
+                                                    Repeat This Buy
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-7">
                                             <div class="yearly-wrapper">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                                                    <label class="form-check-label" for="flexRadioDefault5">
                                                         Daily
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault6">
                                                         Weekly
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                                    <label class="form-check-label" for="flexRadioDefault3">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+                                                    <label class="form-check-label" for="flexRadioDefault7">
                                                         Every Two Week
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault4">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault8">
                                                         Monthly
                                                     </label>
                                                 </div>

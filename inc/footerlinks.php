@@ -19,10 +19,23 @@
 <!-- wow js ends here -->
 <script src="js/index.js"></script>
 <script>
+    // active class 
+    const CurrentLocation = window.location.href;
+    const menuItem = document.querySelectorAll('.exchange_dashboard .dashboard-sidebar ul li a');
+    const menuLength = menuItem.length
+    for (let i = 0; i < menuLength; i++) {
+        if (menuItem[i].href === CurrentLocation) {
+            // menuItem[i].className = "active";
+            menuItem[i].classList.add('active');
+        }
+    }
+    // active class 
     $(document).ready(function() {
-        // $(window).on('load', function() {
-        //     $("#preloader").fadeOut(1000);
-        // });
+        if ($("#sel-tab-wrapper .check-wrapper input").attr('checked', true)) {
+            $('#sel-tab-wrapper .check-wrapper').addClass('active');
+        } else {
+            $('#sel-tab-wrapper .check-wrapper').removeClass('active');
+        }
 
         $('.exchange-confrim .your-purchase-wrapper').hide();
         $('.confirm-content-wrapper .btn-wrapper a').click(function() {
@@ -35,6 +48,11 @@
             grabCursor: true,
         });
         $('.coin-row').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+        $('.mission-slider').slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1

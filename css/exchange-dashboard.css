@@ -1,7 +1,19 @@
+header#header::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-image: url("../img/page-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  background-position: center right;
+  position: absolute;
+  bottom: -22px;
+}
 /* Exchange Dashboard Css Start Here */
 .exchange_dashboard {
   padding: 60px 0;
-  background: #01171b;
+  background: #00191d;
 }
 .exchange_dashboard .dashboard-sidebar {
   background-image: linear-gradient(
@@ -24,6 +36,9 @@
 .exchange_dashboard .dashboard-sidebar ul li {
   border-bottom: 1px solid #54617a;
   padding: 15px 22px;
+}
+.exchange_dashboard .dashboard-sidebar ul li:last-child {
+  border-bottom: 0px;
 }
 .exchange_dashboard .dashboard-sidebar ul li a span svg {
   margin-right: 4px;
@@ -304,6 +319,12 @@
   font-family: "walkway";
   line-height: 20px;
 }
+.exchange_dashboard .dashboard-sidebar ul li a.active {
+  color: #fff;
+}
+.exchange_dashboard .dashboard-sidebar ul li a.active span {
+  filter: brightness(0) invert(1);
+}
 .exchange_dashboard .assets-balance .heading h2 {
   font-family: "hanson";
   text-transform: uppercase;
@@ -349,19 +370,37 @@
 .exchange_dashboard .your-assets {
   padding-top: 20px;
 }
+.your-assets th.name {
+  padding-left: 56px;
+}
 .exchange_dashboard .your-assets .table-resposnive thead {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #2bdeff,
     #21bedd,
     #16a0bb,
     #0b829a,
     #01667a
+  ); */
+  background-image: linear-gradient(
+    to bottom,
+    #1399b3,
+    #108fa8,
+    #0c859d,
+    #087c93,
+    #057288,
+    #046e83,
+    #026a7f,
+    #01667a,
+    #01667a,
+    #01667a,
+    #01667a,
+    #01667a
   );
 }
 .your-assets th {
   color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: "walkway";
 }
 .your-assets td.name {
@@ -404,7 +443,7 @@
   margin-top: 30px;
 }
 .balances-wrapper {
-  margin-top: 30px;
+  margin-top: 42px;
 }
 .balances-wrapper .bal-heading-wrapper h4 {
   font-size: 30px;
@@ -453,35 +492,36 @@
   border-radius: 50%;
 }
 .bal-heading-Recurring {
-    display: flex;
-    align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
 }
 .bal-heading-Recurring h4 {
-    font-size: 21px !important;
+  font-size: 21px !important;
 }
 .bal-heading-Recurring button.add-new {
-    font-size: 16px;
-    color: #2BDEFF;
-    background: transparent;
-    border: 0px;
+  font-size: 16px;
+  color: #2bdeff;
+  background: transparent;
+  border: 0px;
 }
 .Recurring .bal-price-wrapper {
-    flex: 0 0 3% !important;
+  flex: 0 0 3% !important;
 }
 
 .Recurring .bal-price-wrapper i {
-    color: #fff;
+  color: #fff;
 }
 .Recurring .bal-heading-wrapper {
-    flex: 0 0 77% !important;
-	margin-left: 20px;
+  flex: 0 0 77% !important;
+  margin-left: 20px;
 }
 .Recurring .bal-heading-wrapper h5 {
-    font-size: 13px !important;
-    color: #fff;
-    font-family: "walkway";
-    font-weight: 700;
-    margin-bottom: 0px;
+  font-size: 13px !important;
+  color: #fff;
+  font-family: "walkway";
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 /* Exchange Assets Css End Here */

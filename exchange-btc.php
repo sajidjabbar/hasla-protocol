@@ -14,7 +14,7 @@
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
-                            <li class="arrow"><a href="#">></a></li>
+                            <li class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>
@@ -67,10 +67,24 @@
                         </div>
                         <div class="icon-wrapper">
                             <button class="btn">
-                                <i class="fa fa-upload"></i>
+                                <!-- <i class="fa fa-upload"></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18.209" height="18.852" viewBox="0 0 18.209 18.852">
+                                    <g id="Icon_feather-upload" data-name="Icon feather-upload" transform="translate(-5.071 -3.75)">
+                                        <path id="Path_826" data-name="Path 826" d="M21.209,22.5v4.3a2.02,2.02,0,0,1-1.857,2.15h-13A2.02,2.02,0,0,1,4.5,26.8V22.5" transform="translate(1.321 -7.099)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.5" />
+                                        <path id="Path_827" data-name="Path 827" d="M21.251,9.875,15.875,4.5,10.5,9.875" transform="translate(-1.7)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.5" />
+                                        <path id="Path_828" data-name="Path 828" d="M18,4.5V17.4" transform="translate(-3.824)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.5" />
+                                    </g>
+                                </svg>
+
                             </button>
                             <button class="btn">
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <!-- <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21.987" height="21.002" viewBox="0 0 21.987 21.002">
+                                    <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.509 0.5)">
+                                        <path id="Path_776" data-name="Path 776" d="M130.851,245.76l6.161.908a.623.623,0,0,1,.347,1.057l-4.46,4.344a.62.62,0,0,0-.182.545l1.041,6.145a.629.629,0,0,1-.908.661l-5.5-2.907a.6.6,0,0,0-.578,0l-5.517,2.891a.625.625,0,0,1-.908-.661l1.057-6.128a.606.606,0,0,0-.182-.545l-4.46-4.344a.62.62,0,0,1,.347-1.057l6.161-.892a.591.591,0,0,0,.462-.347l2.758-5.583a.628.628,0,0,1,1.123,0l2.742,5.583A.729.729,0,0,0,130.851,245.76Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
+                                    </g>
+                                </svg>
+
                             </button>
                         </div>
                     </div>

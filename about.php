@@ -14,7 +14,7 @@
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
-                            <li class="arrow"><a href="#">></a></li>
+                            <li class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             <li class="current-page"><a href="#">ABOUT US</a></li>
                         </ul>
                     </div>
@@ -65,7 +65,52 @@
         <div class="row mt-5 pt-5">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
-                <div class="row">
+                <div class="row mission-slider">
+                    <div class="col-lg-4">
+                        <div class="mission-card-wrapper">
+                            <div class="mission-img-wrapper">
+                                <figure>
+                                    <img src="img/doge.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                            <div class="mission-content-wrapper">
+                                <h5>Metamask</h5>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mission-card-wrapper">
+                            <div class="mission-img-wrapper">
+                                <figure>
+                                    <img src="img/meta-coin.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                            <div class="mission-content-wrapper">
+                                <h5>Crypto</h5>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mission-card-wrapper">
+                            <div class="mission-img-wrapper">
+                                <figure>
+                                    <img src="img/crypto-coin.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                            <div class="mission-content-wrapper">
+                                <h5>Binance</h5>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-4">
                         <div class="mission-card-wrapper">
                             <div class="mission-img-wrapper">

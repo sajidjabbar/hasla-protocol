@@ -8,3 +8,7 @@ tl = gsap.timeline({
 tl.to(".slide-1", { width: 0 }).to("#introduction", { height: 0 });
 
 new WOW().init();
+
+$(document).ready(function () {
+
+});

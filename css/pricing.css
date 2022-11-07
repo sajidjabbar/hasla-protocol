@@ -1,0 +1,57 @@
+.pricing {
+  padding: 100px 0px;
+}
+.pricing .pricing-wrapper .pricing-heading-wrapper h3 {
+  color: #fff;
+  text-align: center;
+}
+.pricing-table-wrapper table * {
+  color: #fff;
+}
+.pricing-table-wrapper table th {
+  padding: 20px 10px;
+}
+.pricing-table-wrapper table td {
+  padding: 20px 10px;
+  border: 0px;
+  font-size: 21px;
+}
+.pricing-table-wrapper table thead {
+  background-image: linear-gradient(
+    to bottom,
+    #1399b3,
+    #108fa8,
+    #0c859d,
+    #087c93,
+    #057288,
+    #046e83,
+    #026a7f,
+    #01667a,
+    #01667a,
+    #01667a,
+    #01667a,
+    #01667a
+  );
+  border: 0px;
+}
+.pricing-table-wrapper table tbody tr {
+  border-bottom: 1px solid #122932;
+  border-top: 0px;
+}
+.pricing-table-wrapper table thead tr th {
+  border: 0px !important;
+  font-size: 21px;
+}
+.pricing-table-wrapper table thead tr th.months {
+  text-align: center;
+}
+.pricing-table-wrapper table td.months-value {
+  text-align: center;
+  border-left: 1px solid #122932;
+}
+.pricing-table-wrapper table tbody tr:last-child {
+  border: 0px;
+}
+.pricing-table-wrapper table tbody tr:last-child td {
+  border: 0px;
+}

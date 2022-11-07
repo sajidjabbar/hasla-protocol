@@ -9,14 +9,14 @@
                 <div class="banner-heading-wrapper wow animate__animated animate__bounce">
                     <img src="img/banner-heading-img.png" class="img-fluid banner-pil" alt="">
                     <h6>MANAGE YOUR </h6>
-                    <h2>cloud mining,
+                    <h2 class="mb-5">cloud mining,
                         staking pool,
                         trading exchange
                         at one place</h2>
-                    <p>
+                    <!-- <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
-                    </p>
-                    <div class="btn-wrapper">
+                    </p> -->
+                    <div class="btn-wrapper mt-5">
                         <a href="#" class="btn">Start <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -37,14 +37,14 @@
                     <div class="stats-wrapper">
                         <h4 class="wow animate__animated animate__fadeInLeft">27k+</h4>
                         <p class="wow animate__animated animate__fadeInLeft">
-                            Lorem Ipsum is not
+                            Lorem Ipsum is not <br>
                             simply random
                         </p>
                     </div>
                     <div class="stats-wrapper ">
                         <h4 class="wow animate__animated animate__fadeInDown">19k+</h4>
                         <p class="wow animate__animated animate__fadeInDown">
-                            Lorem Ipsum is not
+                            Lorem Ipsum is not <br>
                             simply random
                         </p>
                     </div>
@@ -52,7 +52,7 @@
                     <div class="stats-wrapper">
                         <h4 class="wow animate__animated animate__fadeInLeft">10k+</h4>
                         <p class="wow animate__animated animate__fadeInRight">
-                            Lorem Ipsum is not
+                            Lorem Ipsum is not <br>
                             simply random
                         </p class="wow animate__animated animate__fadeInRight">
                     </div>
@@ -61,7 +61,7 @@
             <div class="col-lg-6">
                 <div class="content-wrapper">
                     <p class="wow animate__animated animate__fadeInDown">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been.
                     </p>
                 </div>
             </div>
@@ -83,50 +83,66 @@
             </div>
             <div class="col-lg-2"></div>
         </div>
-        <div class="row coin-row mt-5">
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/doge.png" class="img-fluid" alt="">
-                    </figure>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row coin-row">
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/doge.png" class="img-fluid" alt="">
+                            </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Metamask</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/meta-coin.png" class="img-fluid" alt="">
+                            </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Crypto</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/crypto-coin.png" class="img-fluid" alt="">
+                            </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Binance</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/doge.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/meta-coin.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="coin-box-wrapper">
+                            <figure>
+                                <img src="img/crypto-coin.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/meta-coin.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/crypto-coin.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/doge.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/meta-coin.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="coin-box-wrapper">
-                    <figure>
-                        <img src="img/crypto-coin.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
+            <div class="col-lg-1"></div>
         </div>
+
         <div class="row text-center">
             <div class="col-lg-12">
                 <div class="content-wrapper">
@@ -157,12 +173,11 @@
             <div class="col-lg-6">
                 <div class="img-wrapper">
                     <figure>
-                        <img src="img/wallet-img.png" class="img-fluid wow animate__animated animate__fadeInLeft"
-                            alt="">
+                        <img src="img/wallet-img.png" class="img-fluid wow animate__animated animate__fadeInLeft" alt="">
                     </figure>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 px-0">
                 <div class="wallet-lists-wrapper wow animate__animated animate__fadeInRight">
                     <div class="single-wallet-wrapper">
                         <div class="single-img-wrapper">
@@ -331,8 +346,14 @@
     </div>
     <div class="container-fluid px-0">
         <div class="row align-items-center">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
+            <div class="col-lg-1">
+                <div class="ring-wrapper">
+                    <figure>
+                        <img src="img/ring.png" class="img-fluid ring-img" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-6">
                 <div class="traders-list-wrapper wow animate__animated animate__fadeInLeft">
                     <div class="single-trader-list">
                         <div class="single-trader-content-wrapper">

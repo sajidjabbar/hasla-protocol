@@ -1,178 +1,210 @@
+header#header::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-image: url("../img/page-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  background-position: center right;
+  position: absolute;
+  bottom: -22px;
+}
 .exchange-confrim {
-	padding: 60px 0px;
+  padding: 60px 0px;
+}
+.you-are-buying-wrapper
+  .process-wrapper
+  .process-card-wrapper
+  .img-wrapper::after {
+  content: "";
+  width: 1px;
+  height: 45px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 89%;
+}
+.you-are-buying-wrapper
+  .process-wrapper
+  .process-card-wrapper:last-child
+  .img-wrapper::after {
+  background: transparent;
 }
 .exchange-confrim .you-are-buying-wrapper {
-	background-image: linear-gradient(
-		to bottom,
-		#2bdeff,
-		#20a7c0,
-		#157385,
-		#0a434f,
-		#00191e
-	);
-	border-radius: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    #20adc7,
+    #1a90a5,
+    #147385,
+    #0e5865,
+    #083e48
+  );
 }
 .exchange-confrim .you-are-buying-wrapper .heading-wrapper {
-	text-align: center;
-	padding: 17px 0px;
-	border-bottom: 1px solid #ffffff;
+  text-align: center;
+  padding: 17px 0px;
+  border-bottom: 1px solid #ffffff;
 }
 .exchange-confrim .you-are-buying-wrapper .heading-wrapper h6 {
-	color: #fff;
-	font-size: 25px;
-	margin: 0px;
+  color: #fff;
+  font-size: 25px;
+  margin: 0px;
 }
 .exchange-confrim .you-are-buying-wrapper .heading-wrapper h5 {
-	color: #fff;
-	font-size: 22px;
-	font-family: "walkway";
+  color: #fff;
+  font-size: 22px;
+  font-family: "walkway";
 }
 .exchange-confrim .you-are-buying-wrapper .heading-wrapper h4 {
-	color: #fff;
-	font-family: "walkway";
-	font-size: 54px;
+  color: #fff;
+  font-family: "walkway";
+  font-size: 54px;
 }
 .you-are-buying-wrapper .process-wrapper {
-	padding: 20px 34px;
+  padding: 20px 34px;
 }
 .you-are-buying-wrapper .process-wrapper .process-card-wrapper {
-	display: flex;
-	align-items: center;
-	margin: 29px 0px;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 29px 0px;
+  justify-content: space-between;
+  position: relative;
 }
 .you-are-buying-wrapper .process-wrapper .process-card-wrapper .img-wrapper {
-	width: 50px;
-	height: 50px;
-	background: #5197a5;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	flex: 0 0 9%;
+  width: 50px;
+  height: 50px;
+  background: #5197a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex: 0 0 9%;
 }
 .you-are-buying-wrapper
-	.process-wrapper
-	.process-card-wrapper
-	.processs-card-content-wrapper {
-	/* margin-left: 32px; */
-	flex: 0 0 84%;
-	border-bottom: 1px solid #fff;
-	padding-bottom: 25px;
-}
-
-.you-are-buying-wrapper
-	.process-wrapper
-	.process-card-wrapper
-	.processs-card-content-wrapper
-	h6 {
-	font-family: "walkway";
-	font-size: 16px;
-	color: #fff;
-	margin: 0px;
+  .process-wrapper
+  .process-card-wrapper
+  .processs-card-content-wrapper {
+  /* margin-left: 32px; */
+  flex: 0 0 84%;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 25px;
 }
 
 .you-are-buying-wrapper
-	.process-wrapper
-	.process-card-wrapper
-	.processs-card-content-wrapper
-	span {
-	font-family: "walkway";
-	font-size: 20px;
-	font-weight: 700;
-	color: #ffff;
+  .process-wrapper
+  .process-card-wrapper
+  .processs-card-content-wrapper
+  h6 {
+  font-family: "walkway";
+  font-size: 16px;
+  color: #fff;
+  margin: 0px;
+}
+
+.you-are-buying-wrapper
+  .process-wrapper
+  .process-card-wrapper
+  .processs-card-content-wrapper
+  span {
+  font-family: "walkway";
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffff;
 }
 .btc-to-dollar-wrapper ul {
-	list-style: none;
-	padding: 0px;
+  list-style: none;
+  padding: 0px;
 }
 .btc-to-dollar-wrapper ul li {
-	display: flex;
-	justify-content: space-between;
-	padding: 0px 33px;
-	line-height: 1.5;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 33px;
+  line-height: 1.5;
+  align-items: center;
 }
 .btc-to-dollar-wrapper {
-	padding-top: 30px;
-	padding-bottom: 24px;
-	border-top: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  border-top: 1px solid #fff;
 }
 .you-are-buying-wrapper
-	.process-wrapper
-	.process-card-wrapper:last-child
-	.processs-card-content-wrapper {
-	border-bottom: 0px;
+  .process-wrapper
+  .process-card-wrapper:last-child
+  .processs-card-content-wrapper {
+  border-bottom: 0px;
+  padding-bottom: 26px;
 }
 .btc-to-dollar-wrapper ul li {
-	color: #fff;
-	font-family: "walkway";
-	font-size: 20px;
-	margin-bottom: 10px;
+  color: #fff;
+  font-family: "walkway";
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .btc-to-dollar-wrapper ul li .seprator {
-	height: 2px;
-	background: white;
-	flex: 0 0 54%;
+  height: 2px;
+  background: white;
+  flex: 0 0 54%;
 }
 .btc-to-dollar-wrapper ul li span:first-child {
-	flex: 0 0 29%;
+  flex: 0 0 29%;
 }
 
 .btc-to-dollar-wrapper ul li span:last-child {
-	flex: 0 0 15%;
+  flex: 0 0 15%;
 }
 /* confirm starts here */
 .confirm-content-wrapper {
-	text-align: center;
+  text-align: center;
 }
 
 .confirm-content-wrapper .btn-wrapper a {
-	display: block;
-	margin-top: 7px;
-	padding: 10px 0px;
-	margin: 10px auto;
+  display: block;
+  margin-top: 7px;
+  padding: 10px 0px;
+  margin: 10px auto;
 }
 .exchange-confrim .confirm-content-wrapper h4 {
-	font-family: "walkway";
-	font-size: 40px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 40px;
+  color: #fff;
 }
 
 .exchange-confrim .confirm-content-wrapper p {
-	font-size: 20px;
-	color: #fff;
-	opacity: 71%;
+  font-size: 20px;
+  color: #fff;
+  opacity: 71%;
 }
 .confirm-content-wrapper .btn-wrapper a.btn.Cancle {
-	background: transparent;
-	border: 1px solid #1192ab;
+  background: transparent;
+  border: 1px solid #1192ab;
 }
 .exchange-confrim .your-purchase-wrapper {
-	text-align: center;
+  text-align: center;
 }
 .exchange-confrim .your-purchase-wrapper h2 {
-	font-family: "walkway";
-	font-size: 40px;
-	color: #fff;
+  font-family: "walkway";
+  font-size: 40px;
+  color: #fff;
 }
 .exchange-confrim .your-purchase-wrapper p {
-	font-size: 20px;
-	color: #fff;
-	opacity: 71%;
+  font-size: 20px;
+  color: #fff;
+  opacity: 71%;
 }
 
 .exchange-confrim .your-purchase-wrapper .btn-wrapper a.btn.Cancle {
-	background: transparent;
-	border: 1px solid #1192ab;
+  background: transparent;
+  border: 1px solid #1192ab;
 }
 .exchange-confrim .your-purchase-wrapper .btn-wrapper a {
-	display: block;
-	margin-top: 7px;
-	padding: 10px 0px;
-	margin: 10px auto;
+  display: block;
+  margin-top: 7px;
+  padding: 10px 0px;
+  margin: 10px auto;
 }
 .exchange-confrim .your-purchase-wrapper .btn-wrapper a.btn.Start {
-	background: transparent;
-	border: 1px solid #1192ab;
+  background: transparent;
+  border: 1px solid #1192ab;
 }

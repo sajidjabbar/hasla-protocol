@@ -19,7 +19,7 @@
                     <div class="breadcrumbs-wrapper">
                         <ul>
                             <li class="base-page"><a href="#">HOME</a></li>
-                            <li class="arrow"><a href="#">></a></li>
+                            <li class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             <li class="current-page"><a href="#">Buy Crypto</a></li>
                         </ul>
                     </div>
@@ -91,6 +91,10 @@
                 <?php include 'inc/dashboard-sidebar.php' ?>
             </div>
             <div class="col-lg-6">
+                <div class="yeild-heading-wrapper">
+                    <h4>Your yeild</h4>
+                    <h6>ALL</h6>
+                </div>
                 <div class="earn-wrapper">
                     <div class="row first-col">
                         <div class="col-lg-6">
@@ -121,7 +125,7 @@
                             <p>See how we calculate yield</p>
                         </div>
                         <div class="btn-wrapper">
-                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                            <a href="#"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -228,7 +232,7 @@
                     <div class="bal-card-wrapper">
                         <div class="img-wrapper">
 
-                            <img src="img/faq.png" class="img-fluid coin-img" alt="">
+                            <img src="img/msg.png" class="img-fluid coin-img" alt="">
 
                         </div>
                         <div class="bal-heading-wrapper">
