@@ -93,7 +93,7 @@
                                         <h2>usd 00.00</h2>
                                     </div>
                                     <div class="bar">
-                                        <figure><img src="img/balance-bar.png" alt="" class="img-fluid"></figure>
+                                        <figure><img style="width: 187px;" src="img/balance-bar2.png" alt="" class="img-fluid"></figure>
                                     </div>
                                 </div>
                                 <div class="table-responsive">
@@ -125,11 +125,8 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
+
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -170,11 +167,7 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -215,11 +208,7 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -260,11 +249,7 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -305,11 +290,7 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -350,11 +331,7 @@
                                                 <label class="favourite_container">
                                                     <input type="checkbox" hidden />
                                                     <span class="checkmark">
-                                                        <svg width="14.191" height="13.571" viewBox="0 0 14.191 13.571">
-                                                            <g id="_5_stars_rating" data-name="5 stars rating" transform="translate(0.507 0.5)">
-                                                                <path id="Path_776" data-name="Path 776" d="M125.546,243.434l3.872.571a.391.391,0,0,1,.218.664l-2.8,2.73a.39.39,0,0,0-.114.343l.654,3.861a.4.4,0,0,1-.571.415l-3.456-1.827a.377.377,0,0,0-.363,0l-3.467,1.816a.393.393,0,0,1-.571-.415l.664-3.851a.381.381,0,0,0-.114-.343l-2.8-2.73a.389.389,0,0,1,.218-.664l3.872-.56a.371.371,0,0,0,.291-.218l1.733-3.508a.4.4,0,0,1,.706,0l1.723,3.508A.458.458,0,0,0,125.546,243.434Z" transform="translate(-116.575 -239.5)" fill="none" stroke="#fff" stroke-width="1" />
-                                                            </g>
-                                                        </svg>
+                                                        <i class="fa fa-star text-white"></i>
                                                     </span>
                                                 </label>
                                                 <button class="filtered">
@@ -372,7 +349,16 @@
                                 </div>
                             </div>
                             <div class="col-lg-4">
+
                                 <div class="right-side">
+                                    <div class="arrow-left-right-wrapper">
+                                        <button class="arrow">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </button>
+                                        <button class="arrow">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </button>
+                                    </div>
                                     <div class="coin-detail">
                                         <div class="details">
                                             <h4>SOLANA STAKING</h4>

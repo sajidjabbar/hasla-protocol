@@ -6,6 +6,11 @@
 <link rel="stylesheet" href="css/exchange-dashboard.css">
 <link rel="stylesheet" href="css/exchange-earn.css">
 <!-- Stylesheet -->
+<style>
+    .exchange_dashboard .ii {
+        border-right: 1px solid #12272f;
+    }
+</style>
 
 <!-- page Header starts here -->
 <section class="pageHeader-sec">
@@ -90,7 +95,7 @@
             <div class="col-lg-3">
                 <?php include 'inc/dashboard-sidebar.php' ?>
             </div>
-            <div class="col-lg-6">
+            <div style="padding-left: 20px !important;" class="col-lg-6 ii px-0">
                 <div class="yeild-heading-wrapper">
                     <h4>Your yeild</h4>
                     <h6>ALL</h6>
@@ -99,14 +104,14 @@
                     <div class="row first-col">
                         <div class="col-lg-6">
                             <div class="learning-wrapper">
-                                <h6>Lifetime earnings</h6>
+                                <h6>Lifetime Learning</h6>
                                 <h5>+ $0.0000000</h5>
-                                <p>Earned over time from holding crypto</p>
+                                <p>Earned over time holding crypto</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="yeild-wrapper">
-                                <h6>Yield Rate</h6>
+                                <h6>Lifetime Learning</h6>
                                 <h5>0.00%</h5>
                                 <p>
                                     Average across your assets
@@ -224,7 +229,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 px-0">
                 <div class="balances-wrapper">
                     <div class="bal-heading-wrapper">
                         <h4>More</h4>

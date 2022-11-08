@@ -94,7 +94,7 @@
                         <div class="col-lg-9">
                             <div class="exchange-graph-wrapper">
                                 <figure>
-                                    <img src="img/exchange-graph.png" class="img-fluid" alt="">
+                                    <img src="img/exchange-graph.png" class="img-fluid w-100" alt="">
                                 </figure>
                             </div>
                         </div>

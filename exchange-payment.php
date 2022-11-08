@@ -147,7 +147,7 @@
                                             <input type="text" class="form-control limit-field">
                                         </div>
                                     </div>
-                                    <div class="row pt-3 align-items-center" id="Repeat">
+                                    <div class="row pt-3 align-items-center che" id="Repeat">
                                         <div class="col-lg-5">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">

@@ -1,181 +1,187 @@
 header#header {
-  padding: 18px 0px 10px 0px;
-  position: absolute;
-  width: 100%;
-  top: 0px;
+	padding: 18px 0px 10px 0px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
 }
 header#header::after {
-  content: "";
-  width: 100%;
-  height: 5px;
-  background-image: url("../img/page-header.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  background-position: center right;
-  position: absolute;
-  bottom: -22px;
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-image: url("../img/page-header.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	background-position: center right;
+	position: absolute;
+	bottom: -22px;
 }
 /* page header starts here */
 .pageHeader-sec {
-  background-image: url("../img/pageheader-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 218px 0px 50px 0px;
+	background-image: url("../img/pageheader-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 218px 0px 50px 0px;
 }
 .pageHeader-sec .page-header-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .pageHeader-sec .page-header-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .pageHeader-sec .page-header-wrapper .heading-wrapper h3 {
-  color: #ffffff;
-  font-family: "hanson";
-  font-size: 36px;
-  text-transform: uppercase;
+	color: #ffffff;
+	font-family: "hanson";
+	font-size: 36px;
+	text-transform: uppercase;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul {
-  padding: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li {
-  margin: 0px 10px;
+	margin: 0px 10px;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-family: "walkway";
-  font-size: 16px;
-  font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-family: "walkway";
+	font-size: 16px;
+	font-weight: 700;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li.base-page a {
-  color: #8c9c9f;
+	color: #8c9c9f;
 }
 /* page header ends here */
 /* Contact us starts here */
 .contact-us {
-  background-image: url("../img/contact-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 68px 0px;
+	background-image: url("../img/contact-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 68px 0px;
 }
 .contact-us .content-wrapper {
-  text-align: center;
+	text-align: center;
 }
 
 .contact-us .content-wrapper h2 {
-  color: #ffff;
-  text-transform: uppercase;
-  font-size: 43px;
+	color: #ffff;
+	text-transform: uppercase;
+	font-size: 43px;
 }
 
 .contact-us .content-wrapper p {
-  color: #fff;
-  margin-top: 20px;
+	color: #fff;
+	margin-top: 20px;
 }
 
 .contact-us .content-wrapper .social-media-icon-wrapper ul {
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
 }
 .contact-us .content-wrapper .social-media-icon-wrapper ul a {
-  margin: 0px 24px;
-  font-size: 34px;
-  color: #28d7f8;
+	margin: 0px 24px;
+	font-size: 34px;
+	color: #28d7f8;
 }
 .contact-us .content-wrapper .social-media-icon-wrapper {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 .contact-us .form-wrapper .form-group {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .contact-us .form-wrapper {
-  background: #113137;
-  padding: 38px 29px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 24px 0px rgb(43 222 255);
-  -moz-box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
-  box-shadow: 0px 0px 24px 0px rgb(43 222 255);
-  margin-top: 41px;
-  border: 1px solid #989898;
+	background: #113137;
+	padding: 38px 29px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+	-moz-box-shadow: 0px 0px 24px 0px rgba(43, 222, 255, 1);
+	box-shadow: 0px 0px 24px 0px rgb(43 222 255);
+	margin-top: 41px;
+	border: 1px solid #989898;
 }
 .contact-us .form-wrapper input.form-control {
-  background: transparent;
-  border-radius: 0px;
-  height: 59px;
+	background: transparent;
+	border-radius: 0px;
+	height: 59px;
+	border: 1px solid #989898;
 }
 .contact-us .form-wrapper input.form-control::placeholder {
-  color: #788a8d;
-  font-family: "walkway";
-  font-size: 20px;
+	color: #788a8d;
+	font-family: "walkway";
+	font-size: 20px;
+}
+.contact-us .content-wrapper .social-media-icon-wrapper ul a svg {
+	margin-top: -7px;
 }
 .contact-us .form-wrapper textarea.form-control {
-  background: transparent;
-  border-radius: 0px;
+	background: transparent;
+	border-radius: 0px;
+	border: 1px solid #989898;
 }
 .contact-us .form-wrapper textarea.form-control::placeholder {
-  color: #788a8d;
-  font-family: "walkway";
-  font-size: 20px;
+	color: #788a8d;
+	font-family: "walkway";
+	font-size: 20px;
 }
 .contact-us .form-wrapper label.form-check-label {
-  color: #fff;
-  font-family: "walkway";
-  font-size: 20px;
-  font-weight: 700;
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
+	font-weight: 700;
 }
 /* Contact us ends here */
 /* Need help starts here */
 .need-help-sec {
-  background: #01171b;
-  padding: 100px 0px 150px;
+	background: #01171b;
+	padding: 100px 0px 150px;
 }
 .need-help-sec .container-fluid {
-  padding: 0px 67px;
+	padding: 0px 67px;
 }
 .need-help-sec .content-wrapper h3 {
-  font-family: "hanson";
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 33px;
+	font-family: "hanson";
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 33px;
 }
 .need-help-sec .support-card-wrapper {
-  width: 80%;
+	width: 80%;
 }
 .need-help-sec .support-card-wrapper h4 {
-  color: #ffffff;
-  font-size: 30px;
-  font-family: "walkway";
-  text-transform: capitalize;
-  text-shadow: 0 0 #fff;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: "walkway";
+	text-transform: capitalize;
+	text-shadow: 0 0 #fff;
 }
 .social-media-icon-wrapper li i {
-  font-family: "FontAwesome";
+	font-family: "FontAwesome";
 }
 .need-help-sec .support-card-wrapper p {
-  color: #fff;
+	color: #fff;
 }
 .need-help-sec .support-card-wrapper h4 img {
-  margin-right: 15px;
+	margin-right: 15px;
 }
 .need-help-sec .support-card-wrapper a {
-    color: #25d0f0;
-    text-transform: uppercase;
-    font-family: "hanson";
-    text-decoration: none;
-    letter-spacing: 3px;
+	color: #25d0f0;
+	text-transform: uppercase;
+	font-family: "hanson";
+	text-decoration: none;
+	letter-spacing: 3px;
 }
 .need-help-sec .support-card-wrapper a i {
-  margin-left: 28px;
+	margin-left: 28px;
 }
 /* Need Help ends here */

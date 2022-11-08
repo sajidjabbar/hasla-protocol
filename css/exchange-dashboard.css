@@ -1,380 +1,395 @@
 header#header::after {
-  content: "";
-  width: 100%;
-  height: 5px;
-  background-image: url("../img/page-header.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  background-position: center right;
-  position: absolute;
-  bottom: -22px;
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-image: url("../img/page-header.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	background-position: center right;
+	position: absolute;
+	bottom: -22px;
 }
 /* Exchange Dashboard Css Start Here */
 .exchange_dashboard {
-  padding: 60px 0;
-  background: #00191d;
+	padding: 60px 0;
+	background: #01181c;
 }
 .exchange_dashboard .dashboard-sidebar {
-  background-image: linear-gradient(
-    to bottom,
-    #004d5b,
-    #004d5b,
-    #011c2000,
-    #011c20,
-    #011c20
-  );
-  padding: 15px 0;
-  border-radius: 10px;
-  box-shadow: 0px 0px 22px #171b3a;
-  margin-top: 70px;
+	background-image: linear-gradient(
+		to bottom,
+		#004d5b,
+		#004d5b,
+		#011c2000,
+		#011c20,
+		#011c20
+	);
+	padding: 15px 0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 22px #171b3a;
+	margin-top: 70px;
 }
 .exchange_dashboard .dashboard-sidebar ul {
-  padding: 0;
-  list-style: none;
+	padding: 0;
+	list-style: none;
 }
 .exchange_dashboard .dashboard-sidebar ul li {
-  border-bottom: 1px solid #54617a;
-  padding: 15px 22px;
+	border-bottom: 1px solid #54617a;
+	padding: 15px 22px;
 }
 .exchange_dashboard .dashboard-sidebar ul li:last-child {
-  border-bottom: 0px;
+	border-bottom: 0px;
 }
 .exchange_dashboard .dashboard-sidebar ul li a span svg {
-  margin-right: 4px;
-  width: 40px;
+	margin-right: 4px;
+	width: 40px;
 }
 .exchange_dashboard .dashboard-sidebar ul li a {
-  text-decoration: none;
-  color: #ffffff87;
+	text-decoration: none;
+	color: #ffffff87;
 }
 .exchange_dashboard .dashboard-sidebar ul li a span svg path {
-  fill: #506a6f;
+	fill: #506a6f;
 }
 .exchange_dashboard .dashboard .topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #54617a5c;
-  padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #54617a5c;
+	padding-bottom: 15px;
 }
 .exchange_dashboard .dashboard .topbar .heading h3 {
-  font-size: 30px;
-  font-family: "walkway";
-  color: #fff;
+	font-size: 30px;
+	font-family: "walkway";
+	color: #fff;
 }
 .exchange_dashboard .dashboard .topbar .right-side {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .exchange_dashboard .dashboard .topbar .right-side .button-group button {
-  background-image: linear-gradient(
-    to right,
-    #2bdeff,
-    #21bedd,
-    #16a0bb,
-    #0b829a,
-    #01667a
-  );
-  border-radius: 0px;
-  border: 0px;
-  background-position: center;
-  padding: 10px 20px;
-  color: #fff;
-  margin-right: 10px;
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border-radius: 0px;
+	border: 0px;
+	background-position: center;
+	padding: 10px 20px;
+	color: #fff;
+	margin-right: 10px;
 }
 .exchange_dashboard .dashboard .topbar .right-side .button-group button svg {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 .exchange_dashboard .dashboard .topbar .right-side .filters {
-  margin-right: 10px;
-  margin-left: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 .exchange_dashboard .dashboard .topbar .right-side .filters button {
-  background: linear-gradient(
-    to right,
-    #2bdeff,
-    #21bedd,
-    #16a0bb,
-    #0b829a,
-    #01667a
-  );
-  border: 0;
-  width: 42px;
-  height: 42px;
-  border-radius: 50px;
-  margin-right: 5px;
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0;
+	width: 42px;
+	height: 42px;
+	border-radius: 50px;
+	margin-right: 5px;
 }
 .exchange_dashboard .dashboard .topbar .right-side .profile {
-  border-left: 1px solid #54617a;
-  padding-left: 12px;
+	border-left: 1px solid #54617a;
+	padding-left: 12px;
 }
 .exchange_dashboard .dashboard .topbar .right-side .profile button {
-  border: 0;
-  padding: 0;
-  background: transparent;
+	border: 0;
+	padding: 0;
+	background: transparent;
 }
 .exchange_dashboard .dashboard .topbar .right-side .profile button img {
-  border-radius: 50px;
+	border-radius: 50px;
+	border: 1px solid #28d3f3;
 }
 .exchange_dashboard .balance-box .your-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-  padding-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 25px;
+	/* padding-right: 20px; */
+}
+.arrow-left-right-wrapper button.arrow {
+	background: transparent;
+	border: 0px;
+	color: #fff;
+	padding: 0px 10px 0px 0px;
+}
+
+.arrow-left-right-wrapper {
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+.exchange_dashboard .balance-box td.favourite label span.checkmark i {
+	font-size: 12px;
 }
 .exchange_dashboard .balance-box .your-box .heading h4 {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: "walkway";
-  line-height: 30px;
-  margin: 0;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "walkway";
+	line-height: 30px;
+	margin: 0;
 }
 .exchange_dashboard .balance-box .your-box .heading h2 {
-  font-size: 28px;
-  font-family: "hanson";
-  color: #fff;
-  text-transform: uppercase;
+	font-size: 28px;
+	font-family: "hanson";
+	color: #fff;
+	text-transform: uppercase;
 }
 
 .exchange_dashboard
-  .balance-box
-  label.favourite_container
-  input:checked
-  ~ span.checkmark
-  svg
-  path {
-  fill: #d2d22c !important;
-  stroke: #d2d22c;
+	.balance-box
+	label.favourite_container
+	input:checked
+	~ span.checkmark
+	svg
+	path {
+	fill: #d2d22c !important;
+	stroke: #d2d22c;
 }
 .exchange_dashboard .balance-box .favourite {
-  width: 4%;
-  text-align: center;
+	width: 4%;
+	text-align: center;
 }
 .exchange_dashboard .balance-box h4 {
-  font-size: 14px;
-  color: #fff;
-  font-family: "walkway";
-  margin-bottom: 0;
+	font-size: 14px;
+	color: #fff;
+	font-family: "walkway";
+	margin-bottom: 0;
 }
 .exchange_dashboard .balance-box th {
-  border: 0;
+	border: 0;
 }
 .exchange_dashboard .balance-box td {
-  border: 0;
-  vertical-align: middle;
-  padding: 15px 10px;
+	border: 0;
+	vertical-align: middle;
+	padding: 15px 10px;
 }
 .exchange_dashboard .balance-box h5.coin-name {
-  font-size: 17px;
-  color: #eff3f9;
-  margin: 0;
+	font-size: 17px;
+	color: #eff3f9;
+	margin: 0;
 }
 .exchange_dashboard .balance-box h6.short-form {
-  margin: 0;
-  font-size: 14px;
-  color: #fff;
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
 }
 .exchange_dashboard .balance-box td.name figure {
-  margin: 0;
+	margin: 0;
 }
 .exchange_dashboard .balance-box .name {
-  margin-left: 15px;
+	margin-left: 15px;
 }
 .exchange_dashboard .balance-box th.name {
-  padding-left: 35px;
+	padding-left: 35px;
 }
 .exchange_dashboard .balance-box td.name {
-  display: flex;
-  align-items: center;
-  width: 130px;
-  margin: 0;
+	display: flex;
+	align-items: center;
+	width: 130px;
+	margin: 0;
 }
 .exchange_dashboard .balance-box td.trade button {
-  background: linear-gradient(
-    to bottom,
-    #2bdeff,
-    #21bedd,
-    #16a0bb,
-    #0b829a,
-    #01667a
-  );
-  border: 0;
-  box-shadow: none;
-  padding: 5px 15px;
-  color: #fff;
+	background: linear-gradient(
+		to bottom,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	border: 0;
+	box-shadow: none;
+	padding: 5px 15px;
+	color: #fff;
 }
 .exchange_dashboard .balance-box tbody tr {
-  border-top: 1px solid #54617a59;
+	border-top: 1px solid #54617a59;
 }
 .exchange_dashboard .balance-box td.favourite {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .exchange_dashboard .balance-box td.favourite label {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 .exchange_dashboard .balance-box td.favourite button {
-  border: 0;
-  background: transparent;
-  padding: 0;
+	border: 0;
+	background: transparent;
+	padding: 0;
 }
 .exchange_dashboard .coin-detail {
-  display: flex;
-  align-items: flex-start;
-  padding-top: 60px;
+	display: flex;
+	align-items: flex-start;
+	padding-top: 0px;
 }
 .exchange_dashboard .coin-detail .details h4 {
-  font-size: 16px;
-  color: #ffffff;
-  font-family: "hanson";
-  margin-bottom: 5px;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "hanson";
+	margin-bottom: 5px;
 }
 .exchange_dashboard .coin-detail .details p {
-  font-size: 16px;
-  color: #ffffff;
+	font-size: 16px;
+	color: #ffffff;
 }
 .exchange_dashboard .coin-detail .details a {
-  color: #2bdeff;
-  font-family: "walkway";
-  font-size: 20px;
-  text-decoration: none;
+	color: #2bdeff;
+	font-family: "walkway";
+	font-size: 20px;
+	text-decoration: none;
 }
 .exchange_dashboard .top-movers {
-  padding-top: 40px;
+	padding-top: 40px;
 }
 .exchange_dashboard .top-movers h4 {
-  font-size: 30px;
-  color: #ffffff;
+	font-size: 30px;
+	color: #ffffff;
 }
 .exchange_dashboard .top-movers a {
-  color: #2bdeff;
-  text-decoration: none;
+	color: #2bdeff;
+	text-decoration: none;
 }
 .exchange_dashboard .top-movers .topbar {
-  border: 0;
-  padding: 0;
+	border: 0;
+	padding: 0;
 }
 .exchange_dashboard .top-movers .coin-lists {
-  padding-top: 15px;
+	padding-top: 15px;
 }
 .exchange_dashboard .top-movers .coin-lists li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
 }
 .exchange_dashboard .top-movers .coin-lists li .left .coin-name {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .exchange_dashboard .top-movers .coin-lists li .left .coin-name .name h4 {
-  font-size: 20px;
+	font-size: 20px;
 }
 .exchange_dashboard .top-movers .coin-lists li .left .coin-name .name span {
-  color: #fff;
-  font-size: 14px;
+	color: #fff;
+	font-size: 14px;
 }
 .exchange_dashboard .top-movers .coin-lists li p {
-  font-size: 16px;
-  color: #eff3f9;
-  margin: 0;
+	font-size: 16px;
+	color: #eff3f9;
+	margin: 0;
 }
 .exchange_dashboard .top-movers .coin-lists li span {
-  color: #fff;
+	color: #fff;
 }
 .exchange_dashboard .top-movers .coin-lists li .rate {
-  text-align: end;
+	text-align: end;
 }
 .exchange_dashboard .top-movers .coin-lists li .left .coin-name figure {
-  margin: 0;
-  background: #ffffff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	margin: 0;
+	background: #ffffff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .exchange_dashboard .balance-box .right-side {
-  border-left: 1px solid #54617a;
-  padding-left: 20px;
-  height: 100%;
-  margin-top: 10px;
+	border-left: 1px solid #54617a5c;
+	padding-left: 20px;
+	height: 100%;
+	margin-top: 10px;
 }
 /* Exchange Dashboard Css End Here */
 
 /* Exchange Assets Css Start Here */
 .exchange_dashboard .assets-balance {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 20px;
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 20px;
 }
 .exchange_dashboard .assets-balance .heading h4 {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: "walkway";
-  line-height: 20px;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "walkway";
+	line-height: 20px;
 }
 .exchange_dashboard .dashboard-sidebar ul li a.active {
-  color: #fff;
+	color: #fff;
 }
 .exchange_dashboard .dashboard-sidebar ul li a.active span {
-  filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
 }
 .exchange_dashboard .assets-balance .heading h2 {
-  font-family: "hanson";
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 28px;
-  line-height: 28px;
+	font-family: "hanson";
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 28px;
+	line-height: 28px;
 }
 .exchange_dashboard .assets-balance ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
 .exchange_dashboard .assets-balance ul li {
-  display: inline-block;
+	display: inline-block;
 }
 .exchange_dashboard .assets-balance ul li button {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  color: #fff;
-  font-size: 17px;
-  margin-left: 10px;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 17px;
+	margin-left: 10px;
 }
 .exchange_dashboard .assets-chart figure img {
-  width: 100%;
+	width: 100%;
 }
 .exchange_dashboard .your-assets {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 .exchange_dashboard .your-assets .heading {
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 .exchange_dashboard .your-assets .heading h3 {
-  font-size: 30px;
-  color: #ffffff;
-  font-family: "walkway";
+	font-size: 30px;
+	color: #ffffff;
+	font-family: "walkway";
 }
 .exchange_dashboard .your-assets .heading h3 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 30px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 30px;
 }
 .exchange_dashboard .your-assets {
-  padding-top: 20px;
+	padding-top: 38px;
 }
 .your-assets th.name {
-  padding-left: 56px;
+	padding-left: 56px;
 }
 .exchange_dashboard .your-assets .table-resposnive thead {
-  /* background-image: linear-gradient(
+	/* background-image: linear-gradient(
     to bottom,
     #2bdeff,
     #21bedd,
@@ -382,146 +397,152 @@ header#header::after {
     #0b829a,
     #01667a
   ); */
-  background-image: linear-gradient(
-    to bottom,
-    #1399b3,
-    #108fa8,
-    #0c859d,
-    #087c93,
-    #057288,
-    #046e83,
-    #026a7f,
-    #01667a,
-    #01667a,
-    #01667a,
-    #01667a,
-    #01667a
-  );
+	background-image: linear-gradient(
+		to bottom,
+		#1399b3,
+		#108fa8,
+		#0c859d,
+		#087c93,
+		#057288,
+		#046e83,
+		#026a7f,
+		#01667a,
+		#01667a,
+		#01667a,
+		#01667a,
+		#01667a
+	);
 }
 .your-assets th {
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "walkway";
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "walkway";
 }
 .your-assets td.name {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .your-assets td.name div.name {
-  margin-left: 18px;
+	margin-left: 18px;
 }
 .exchange_dashboard .your-assets table {
-  color: #fff;
+	color: #fff;
 }
 .your-assets td.name h5.coin-name {
-  font-family: "walkway";
-  font-size: 18px;
+	font-family: "walkway";
+	font-size: 18px;
 }
 .your-assets td.name h6.short-form {
-  font-family: "walkway";
-  font-size: 14px;
-  text-transform: uppercase;
+	font-family: "walkway";
+	font-size: 14px;
+	text-transform: uppercase;
 }
 .your-assets td.price p {
-  font-size: 14px;
-  font-family: "walkway";
+	font-size: 14px;
+	font-family: "walkway";
 }
 .your-assets td {
-  border-bottom: 0px;
-  vertical-align: middle;
+	border-bottom: 0px;
+	vertical-align: middle;
 }
 .your-assets tr {
-  border-bottom: 1px solid #122932;
+	border-bottom: 1px solid #122932;
 }
 .your-assets td.balance p {
-  font-family: "walkway";
-  font-size: 14px;
-  margin-bottom: 0px;
+	font-family: "walkway";
+	font-size: 14px;
+	margin-bottom: 0px;
 }
 .balances-wrapper {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 .balances-wrapper {
-  margin-top: 42px;
+	margin-top: 33px;
+}
+.balances-wrapper .bal-heading-wrapper:first-child {
+	padding-bottom: 12px;
+	border-bottom: 1px solid #12272f;
+	padding: 0px 10px 11px 13px;
 }
 .balances-wrapper .bal-heading-wrapper h4 {
-  font-size: 30px;
-  color: #fff;
-  font-family: "walkway";
+	font-size: 30px;
+	color: #fff;
+	font-family: "walkway";
 }
 .balances-wrapper .bal-card-wrapper {
-  display: flex;
-  align-items: center;
-  margin: 13px 0px;
+	display: flex;
+	align-items: center;
+	margin: 13px 0px;
+	padding: 0px 0px 0px 10px;
 }
 .balances-wrapper .bal-card-wrapper .img-wrapper {
-  flex: 0 0 20%;
+	flex: 0 0 20%;
 }
 .balances-wrapper .bal-card-wrapper .bal-heading-wrapper {
-  flex: 0 0 60%;
+	flex: 0 0 60%;
 }
 .balances-wrapper .bal-card-wrapper .bal-price-wrapper {
-  flex: 0 0 20%;
+	flex: 0 0 20%;
 }
 .balances-wrapper .bal-card-wrapper .bal-heading-wrapper h5 {
-  font-size: 19px;
-  color: #fff;
-  font-family: "walkway";
-  font-weight: 700;
-  margin-bottom: 0px;
+	font-size: 19px;
+	color: #fff;
+	font-family: "walkway";
+	font-weight: 700;
+	margin-bottom: 0px;
 }
 .balances-wrapper .bal-card-wrapper .bal-heading-wrapper h6 {
-  font-size: 12px;
-  color: #fff;
+	font-size: 12px;
+	color: #fff;
 }
 .balances-wrapper .bal-card-wrapper .bal-price-wrapper h6 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 13px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 13px;
 }
 .balances-wrapper .bal-card-wrapper .img-wrapper figure {
-  margin: 0px;
-  background: #fff;
-  height: 51px;
-  width: 51px;
-  margin-right: 9px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+	margin: 0px;
+	background: #fff;
+	height: 51px;
+	width: 51px;
+	margin-right: 9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 }
 .bal-heading-Recurring {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 36px;
 }
 .bal-heading-Recurring h4 {
-  font-size: 21px !important;
+	font-size: 21px !important;
 }
 .bal-heading-Recurring button.add-new {
-  font-size: 16px;
-  color: #2bdeff;
-  background: transparent;
-  border: 0px;
+	font-size: 16px;
+	color: #2bdeff;
+	background: transparent;
+	border: 0px;
 }
 .Recurring .bal-price-wrapper {
-  flex: 0 0 3% !important;
+	flex: 0 0 3% !important;
 }
 
 .Recurring .bal-price-wrapper i {
-  color: #fff;
+	color: #fff;
 }
 .Recurring .bal-heading-wrapper {
-  flex: 0 0 77% !important;
-  margin-left: 20px;
+	flex: 0 0 77% !important;
+	margin-left: 20px;
 }
 .Recurring .bal-heading-wrapper h5 {
-  font-size: 13px !important;
-  color: #fff;
-  font-family: "walkway";
-  font-weight: 700;
-  margin-bottom: 0px;
+	font-size: 13px !important;
+	color: #fff;
+	font-family: "walkway";
+	font-weight: 700;
+	margin-bottom: 0px;
 }
 /* Exchange Assets Css End Here */

@@ -1,386 +1,387 @@
 header#header {
-  padding: 18px 0px 10px 0px;
-  position: absolute;
-  width: 100%;
-  top: 0px;
+	padding: 18px 0px 10px 0px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
 }
 header#header::after {
-  content: "";
-  width: 100%;
-  height: 5px;
-  background-image: url("../img/page-header.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  background-position: center right;
-  position: absolute;
-  bottom: -22px;
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-image: url("../img/page-header.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	background-position: center right;
+	position: absolute;
+	bottom: -22px;
 }
 /* page header starts here */
 .pageHeader-sec {
-  background-image: url("../img/pageheader-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 218px 0px 50px 0px;
+	background-image: url("../img/pageheader-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 218px 0px 50px 0px;
 }
 .pageHeader-sec .page-header-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .pageHeader-sec .page-header-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .pageHeader-sec .page-header-wrapper .heading-wrapper h3 {
-  color: #ffffff;
-  font-family: "hanson";
-  font-size: 36px;
-  text-transform: uppercase;
+	color: #ffffff;
+	font-family: "hanson";
+	font-size: 36px;
+	text-transform: uppercase;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul {
-  padding: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li {
-  margin: 0px 10px;
+	margin: 0px 10px;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-family: "walkway";
-  font-size: 16px;
-  font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-family: "walkway";
+	font-size: 16px;
+	font-weight: 700;
 }
 .pageHeader-sec .breadcrumbs-wrapper ul li.base-page a {
-  color: #8c9c9f;
+	color: #8c9c9f;
 }
 /* page header ends here */
 /* btc sec starts here */
 .bitcoin-btc-sec {
-  padding: 80px 0px;
-  background: #00181d;
+	padding: 80px 0px;
+	background: #00181d;
 }
 .bitcoin-btc-sec .btc-header-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-heading-wrapper {
-  flex: 0 0 50%;
+	flex: 0 0 50%;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper {
-  flex: 0 0 50%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
+	flex: 0 0 50%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-heading-wrapper h3 {
-  font-family: "walkway";
-  font-size: 40px;
-  color: #fff;
-  font-weight: 700;
-  margin: 0px;
+	font-family: "walkway";
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0px;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-heading-wrapper .rating-wrapper ul {
-  display: flex;
-  list-style: none;
-  padding-left: 59px;
+	display: flex;
+	list-style: none;
+	padding-left: 59px;
 }
 .bitcoin-btc-sec
-  .btc-header-wrapper
-  .btc-heading-wrapper
-  .rating-wrapper
-  ul
-  li {
-  margin: 0px 4px 0px 0px;
+	.btc-header-wrapper
+	.btc-heading-wrapper
+	.rating-wrapper
+	ul
+	li {
+	margin: 0px 4px 0px 0px;
 }
 .bitcoin-btc-sec
-  .btc-header-wrapper
-  .btc-heading-wrapper
-  .rating-wrapper
-  ul
-  li
-  i {
-  color: #fff;
+	.btc-header-wrapper
+	.btc-heading-wrapper
+	.rating-wrapper
+	ul
+	li
+	i {
+	color: #fff;
 }
 .bitcoin-btc-sec
-  .btc-header-wrapper
-  .btc-heading-wrapper
-  .rating-wrapper
-  ul
-  li
-  span {
-  color: #fff;
-  font-family: "walkway";
-  font-size: 21px;
+	.btc-header-wrapper
+	.btc-heading-wrapper
+	.rating-wrapper
+	ul
+	li
+	span {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 21px;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper select {
-  width: 101px;
-  border-radius: 0px;
-  background: linear-gradient(
-    to right,
-    #2bdeff,
-    #21bedd,
-    #16a0bb,
-    #0b829a,
-    #01667a
-  );
-  appearance: auto;
-  border: 0px;
-  text-align: center;
-  color: #fff;
-  margin-right: 10px;
-  height: 50px;
+	width: 101px;
+	border-radius: 0px;
+	background: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	appearance: auto;
+	border: 0px;
+	text-align: center;
+	color: #fff;
+	margin-right: 10px;
+	height: 50px;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper .search-wrapper {
-  flex: 0 0 45%;
-  padding-right: 10px;
+	flex: 0 0 45%;
+	padding-right: 10px;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper .search-wrapper input {
-  border-radius: 0px;
-  border: 1px solid #989898;
-  background: transparent;
-  height: 50px;
+	border-radius: 0px;
+	border: 1px solid #989898;
+	background: transparent;
+	height: 50px;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper .search-wrapper input {
-  background-image: url("../img/search.png");
-  background-repeat: no-repeat;
-  background-position: 22% center;
-  color: #fff;
-  padding: 0px 88px;
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-position: 22% center;
+	color: #fff;
+	padding: 0px 88px;
 }
 .bitcoin-btc-sec
-  .btc-header-wrapper
-  .btc-action-wrapper
-  .search-wrapper
-  input::placeholder {
-  font-family: "walkway";
-  text-align: center;
-  color: #ffffff;
-  font-weight: 800;
+	.btc-header-wrapper
+	.btc-action-wrapper
+	.search-wrapper
+	input::placeholder {
+	font-family: "walkway";
+	text-align: center;
+	color: #ffffff;
+	font-weight: 800;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper .icon-wrapper {
-  display: flex;
+	display: flex;
 }
 .bitcoin-btc-sec .btc-header-wrapper .btc-action-wrapper .icon-wrapper button {
-  width: 51px;
-  height: 51px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  padding: 0px;
-  margin: 0px 10px 0px 0px;
+	width: 51px;
+	height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
 }
 .bitcoin-btc-sec
-  .btc-header-wrapper
-  .btc-action-wrapper
-  .icon-wrapper
-  button
-  i {
-  margin: 0px;
+	.btc-header-wrapper
+	.btc-action-wrapper
+	.icon-wrapper
+	button
+	i {
+	margin: 0px;
 }
 .bitcoin-btc-sec .trade-today-wrapper {
-  background: #223539;
-  padding: 25px;
-  border-left: 2px solid #707070;
+	background: #223539;
+	padding: 25px;
+	border-left: 2px solid #707070;
 }
 .bitcoin-btc-sec .graph-and-wrapper {
-  border-top: 2px solid #707070;
+	border-top: 2px solid #707070;
 }
 .bitcoin-btc-sec .trade-today-wrapper .img-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .bitcoin-btc-sec .trade-today-wrapper .trade-content-wrapper h5 {
-  color: #fff;
-  font-size: 27px;
+	color: #fff;
+	font-size: 27px;
 }
 .bitcoin-btc-sec .trade-today-wrapper .trade-content-wrapper p {
-  color: #fff;
-  font-size: 16px;
+	color: #fff;
+	font-size: 16px;
 }
 .bitcoin-btc-sec .trade-today-wrapper .trade-content-wrapper a {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .bitcoin-btc-sec .market-wrapper .market-heading-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #707070;
-  padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #707070;
+	padding-bottom: 20px;
 }
 .bitcoin-btc-sec .market-wrapper {
-  padding: 40px 0px;
+	padding: 40px 0px;
 }
 .bitcoin-btc-sec .market-wrapper .market-heading-wrapper h3 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 40px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 40px;
 }
 .bitcoin-btc-sec .market-wrapper .market-heading-wrapper button {
-  width: 51px;
-  height: 51px;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
+	width: 51px;
+	height: 51px;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
 }
 .bitcoin-btc-sec .market-wrapper .market-heading-wrapper button i {
-  margin: 0px;
+	margin: 0px;
 }
 .bitcoin-btc-sec .market-wrapper .market-stats-heading-wrapper {
-  padding-top: 30px;
+	padding-top: 30px;
 }
 .bitcoin-btc-sec .market-wrapper .market-stats-heading-wrapper h3 {
-  font-size: 30px;
-  font-family: "walkway";
-  color: #fff;
+	font-size: 30px;
+	font-family: "walkway";
+	color: #fff;
 }
 .cap-wrapper .market-cap-card-wrapper h5 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 .cap-wrapper .market-cap-card-wrapper h5 span {
-  background: #fff;
-  display: inline-flex;
-  width: 14px;
-  height: 14px;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  color: #011c21;
-  border-radius: 50px;
-  font-family: "poppins";
+	background: #fff;
+	display: inline-flex;
+	width: 14px;
+	height: 14px;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	color: #011c21;
+	border-radius: 50px;
+	font-family: "poppins";
 }
 .cap-wrapper .market-cap-card-wrapper h6 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 20px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 20px;
 }
 .bitcoin-btc-sec .market-wrapper .cap-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .bitcoin-btc-sec .market-wrapper .cap-wrapper .market-cap-card-wrapper {
-  flex: 0 0 25%;
-  padding: 35px 0px;
+	flex: 0 0 25%;
+	padding: 35px 0px;
 }
 .bitcoin-btc-sec
-  .market-wrapper
-  .cap-wrapper
-  .market-cap-card-wrapper
-  .progress-bars-wrapper {
-  background: #1a2c2f;
-  height: 9px;
-  border-radius: 10px;
+	.market-wrapper
+	.cap-wrapper
+	.market-cap-card-wrapper
+	.progress-bars-wrapper {
+	background: #1a2c2f;
+	height: 9px;
+	border-radius: 10px;
 }
 .bitcoin-btc-sec
-  .market-wrapper
-  .cap-wrapper
-  .market-cap-card-wrapper
-  .progress-bars-wrapper
-  .bar-wrapper {
-  background-image: linear-gradient(
-    to right,
-    #2bdeff,
-    #21bedd,
-    #16a0bb,
-    #0b829a,
-    #01667a
-  );
-  width: 80%;
-  height: inherit;
-  border-radius: 10px;
+	.market-wrapper
+	.cap-wrapper
+	.market-cap-card-wrapper
+	.progress-bars-wrapper
+	.bar-wrapper {
+	background-image: linear-gradient(
+		to right,
+		#2bdeff,
+		#21bedd,
+		#16a0bb,
+		#0b829a,
+		#01667a
+	);
+	width: 80%;
+	height: inherit;
+	border-radius: 10px;
 }
 .bitcoin-btc-sec
-  .market-wrapper
-  .cap-wrapper
-  .market-cap-card-wrapper
-  .buy-sell-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+	.market-wrapper
+	.cap-wrapper
+	.market-cap-card-wrapper
+	.buy-sell-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
 }
 
 .bitcoin-btc-sec
-  .market-wrapper
-  .cap-wrapper
-  .market-cap-card-wrapper
-  .buy-sell-wrapper
-  span {
-  color: #fff;
-  font-family: "walkway";
-  font-size: 14px;
-  font-weight: 300;
+	.market-wrapper
+	.cap-wrapper
+	.market-cap-card-wrapper
+	.buy-sell-wrapper
+	span {
+	color: #fff;
+	font-family: "walkway";
+	font-size: 14px;
+	font-weight: 300;
 }
 .bitcoin-decline-wrapper {
-  padding: 50px 0;
-  border-top: 1px solid #707070;
+	padding: 50px 0;
+	border-top: 1px solid #707070;
 }
 .bitcoin-decline-wrapper .heading-wrapper h3 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 30px;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 .bitcoin-decline-wrapper p {
-  color: #fff;
-  font-family: "walkway";
+	color: #fff;
+	font-family: "walkway";
 }
 .related-assets-wrapper {
-  padding: 50px 0;
+	padding: 50px 0;
 }
 .related-assets-wrapper .heading-wrapper h3 {
-  font-family: "walkway";
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
+	font-family: "walkway";
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
 }
 .trending-wrapper {
-  border-top: 0px solid #707070;
-  padding-top: 50px;
-  border-bottom: 1px solid #707070;
+	border-top: 0px solid #707070;
+	padding-top: 50px;
+	border-bottom: 1px solid #707070;
 }
 .trending-wrapper .heading-wrapper h3 {
-  color: #fff;
-  font-family: "walkway";
-  font-size: 30px;
-  font-weight: 700;
+	color: #fff;
+	font-family: "walkway";
+	font-size: 30px;
+	font-weight: 700;
 }
 .trending-wrapper .heading-wrapper p {
-  font-family: "walkway";
-  color: #fff;
-  margin-top: 30px;
+	font-family: "walkway";
+	color: #fff;
+	margin-top: 30px;
 }
 .trending-wrapper .coins-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .trending-wrapper .coins-wrapper .coins-card-wrapper {
-  flex: 0 0 25%;
-  padding: 40px 0px;
-  display: flex;
-  align-items: center;
+	flex: 0 0 25%;
+	padding: 40px 0px;
+	display: flex;
+	align-items: center;
 }
 
 .trending-wrapper .coins-wrapper .coins-card-wrapper img {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .trending-wrapper .coins-wrapper .coins-card-wrapper h4 {
-  color: #fff;
-  font-family: "walkway";
-  font-size: 20px;
+	color: #fff;
+	font-family: "walkway";
+	font-size: 20px;
 }
 .popoluar-currency {
-  border-bottom: none;
+	border-bottom: none;
 }
 /* btc sec ends here */

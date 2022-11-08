@@ -9,14 +9,14 @@
                 <div class="banner-heading-wrapper wow animate__animated animate__bounce">
                     <img src="img/banner-heading-img.png" class="img-fluid banner-pil" alt="">
                     <h6>MANAGE YOUR </h6>
-                    <h2 class="mb-5">cloud mining,
+                    <h2 class="mb-3">cloud mining,
                         staking pool,
                         trading exchange
                         at one place</h2>
-                    <!-- <p>
+                    <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
-                    </p> -->
-                    <div class="btn-wrapper mt-5">
+                    </p>
+                    <div class="btn-wrapper mt-4">
                         <a href="#" class="btn">Start <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
