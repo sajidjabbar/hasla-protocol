@@ -97,7 +97,7 @@
                                                         </div>
                                                         <div class="content-wrapper">
                                                             <h4>Litecoin</h4>
-                                                            <h5>@ $12,460.96</h5>
+                                                            <h5>@ $104.01</h5>
                                                         </div>
                                                     </span>
                                                 </label>

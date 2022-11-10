@@ -703,7 +703,9 @@ header#header .header-cta-wrapper {
 		linear-gradient(to right, #00252c, #00252c);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-bottom: 50px;
+	padding-bottom: 85px;
+	padding-top: 85px;
+	background-position: center right;
 }
 .generate-coins h2 {
 	color: #fff;
@@ -765,7 +767,7 @@ header#header .header-cta-wrapper {
 /* Traders starts here */
 .Traders-sec {
 	overflow-x: hidden;
-	padding: 50px 0px;
+	padding: 0px 0px 50px 0px;
 	position: relative;
 }
 .Traders-sec .trader-bg {

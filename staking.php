@@ -150,12 +150,12 @@
                                         <td class="months-value">6.80%</td>
                                         <td class="months-value">11%</td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="asset-value"></td>
                                         <td class="months-value"><a href="#" class="btn">42%</a></td>
                                         <td class="months-value"><a href="#" class="btn">185%</a></td>
                                         <td class="months-value"><a href="#" class="btn">471%</a></td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>

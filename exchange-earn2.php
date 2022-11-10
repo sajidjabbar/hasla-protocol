@@ -10,6 +10,14 @@
     .exchange_dashboard .ii {
         border-right: 1px solid #12272f;
     }
+
+    .exchange_dashboard .earn-wrapper .learn-yeld-wrapper {
+        border-bottom: 0px;
+    }
+
+    .exchange_dashboard .discovery-assets-wrapper {
+        padding-top: 61px;
+    }
 </style>
 
 <!-- page Header starts here -->

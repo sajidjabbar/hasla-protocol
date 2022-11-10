@@ -84,14 +84,6 @@ header#header::after {
 #sel-tab-wrapper .check-wrapper {
 	padding: 15px 14px;
 	border-radius: 10px;
-	background-image: linear-gradient(
-		to bottom,
-		#126a7b,
-		#0c5664,
-		#06434e,
-		#033039,
-		#011f25
-	);
 	position: relative;
 	width: 100%;
 	box-shadow: 0px 0px 22px #171b3a;
@@ -99,6 +91,14 @@ header#header::after {
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: block;
+	background-image: linear-gradient(
+		to bottom,
+		#126c7d,
+		#0d5663,
+		#09404b,
+		#052c34,
+		#00191e
+	);
 }
 #sel-tab-wrapper .check-wrapper .content-wrapper h4 {
 	font-family: "walkway";
@@ -109,9 +109,10 @@ header#header::after {
 	padding-top: 19px;
 }
 #sel-tab-wrapper .checkbox-wrapper .content-wrapper h5 {
-	font-size: 23px;
+	font-size: 22px;
 	font-weight: 600;
 	color: #fff;
+	opacity: 0.8;
 }
 #sel-tab-wrapper .checkbox-wrapper .img-wrapper figure {
 	margin: 0px;

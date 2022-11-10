@@ -16,7 +16,7 @@
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
                     </p>
-                    <div class="btn-wrapper mt-4">
+                    <div class="btn-wrapper mt-4 pt-4">
                         <a href="#" class="btn">Start <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>

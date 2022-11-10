@@ -46,7 +46,7 @@
                         <div class="tabs-wrapper">
                             <ul>
                                 <li><button class="nav-link active">SIMPLE</button></li>
-                                <li><button class="nav-link">SIMPLE</button></li>
+                                <li><button class="nav-link">ADVANCED</button></li>
                             </ul>
                         </div>
                         <div class="right-side">
