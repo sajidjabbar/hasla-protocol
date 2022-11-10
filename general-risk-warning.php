@@ -28,7 +28,7 @@
 <section class="privacy-sec">
     <div class="container">
         <div class="privacy-head">
-            <h2>general risk warning</h2>
+            <!-- <h2>general risk warning</h2> -->
             <h4>Legal Information & Notices</h4>
         </div>
         <div class="row">

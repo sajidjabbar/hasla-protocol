@@ -28,7 +28,7 @@
 <section class="privacy-sec">
     <div class="container">
         <div class="privacy-head">
-            <h2>Trading Rules</h2>
+            <!-- <h2>Trading Rules</h2> -->
             <h4>Legal Information & Notices</h4>
         </div>
         <div class="row">

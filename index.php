@@ -122,6 +122,9 @@
                             <figure>
                                 <img src="img/doge.png" class="img-fluid" alt="">
                             </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Metamask</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -129,6 +132,9 @@
                             <figure>
                                 <img src="img/meta-coin.png" class="img-fluid" alt="">
                             </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Crypto</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -136,6 +142,9 @@
                             <figure>
                                 <img src="img/crypto-coin.png" class="img-fluid" alt="">
                             </figure>
+                            <div class="coin-content-wrapper">
+                                <h5>Binance</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
